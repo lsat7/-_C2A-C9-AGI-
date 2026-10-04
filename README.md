@@ -65,6 +65,9 @@ MetaCal 把置信度采集**严格前置到作答之前**，并量化前后预�
 ├── lisenao_C9_AI日志.md             开发全过程 AI 记录
 ├── lisenao_C9_拿来说明.md            代码 / 论文 / benchmark 借鉴来源
 │
+├── 【附加 · 超额交付】
+├── lisenao_C2A_C9_AAR.md            全流程事后回顾（After-Action Review）
+│
 └── lisenao_C9_benchmark/            ★ 完整可运行代码包
     ├── README.md                        基准详细文档
     ├── LICENSE                          MIT
@@ -217,6 +220,7 @@ python metacal.py test --model openai:gpt-4o-mini --n 200 --out results/gpt-4o-m
 | Phase 2 | 反思报告 | `lisenao_C9_AAR反思报告.md` | ✅ 正文 799 字，回答全部 5 问 |
 | Phase 2 | ⚡ AI 日志 | `lisenao_C9_AI日志.md` | ✅ 99 轮账本 + prompt 进化链 |
 | Phase 2 | 拿来说明 | `lisenao_C9_拿来说明.md` | ✅ |
+| 附加 | 事后回顾 | `lisenao_C2A_C9_AAR.md` | ✅ 超额交付，全流程复盘 |
 
 完整逐项核对见 [`00_交付物索引.md`](./00_交付物索引.md)。
 
