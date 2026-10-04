@@ -1,6 +1,6 @@
 # AI 生成日志 / AI Generation Log
 
-**作者 / Author:** GuoChengran（郭承然）
+**作者 / Author:** lisenao（李思脑）
 **挑战 / Challenge:** C2A — Track 2 Metacognition（元认知）
 **日期 / Date:** 2026-04-09
 **版本 / Version:** v1

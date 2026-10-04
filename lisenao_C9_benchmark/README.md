@@ -1,7 +1,7 @@
 # MetaCal — Predictive Metacognition Calibration Benchmark (PMCB)
 
 > **Track 2 · Metacognition** ｜ Kaggle *Measuring Progress Toward AGI: Cognitive Abilities*
-> Author: **GuoChengran（郭承然）** ｜ Version: **1.0.0** ｜ License: **MIT**
+> Author: **lisenao（李思脑）** ｜ Version: **1.0.0** ｜ License: **MIT**
 
 MetaCal measures one thing: **does a model know, *before* it answers, whether it will get the item right?**
 
@@ -43,7 +43,7 @@ python metacal.py human --n 40 --seed 7 --out data/human_form.html
 ## 2. Repository layout
 
 ```
-GuoChengran_C9_benchmark/
+lisenao_C9_benchmark/
 ├── metacal.py                  # unified CLI (generate | audit | test | human | selftest)
 ├── run_metacal.py              # batch runner + leaderboard
 ├── self_test.py                # 14 offline tests
@@ -243,9 +243,9 @@ Determinism guarantees:
 ## 10. Citation
 
 ```bibtex
-@misc{guochengran2026metacal,
+@misc{lisenao2026metacal,
   title  = {MetaCal: A Predictive Metacognition Calibration Benchmark (PMCB)},
-  author = {GuoChengran},
+  author = {lisenao},
   year   = {2026},
   note   = {Track 2, Kaggle Measuring Progress Toward AGI: Cognitive Abilities},
   url    = {https://www.kaggle.com/competitions}

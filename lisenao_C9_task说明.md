@@ -1,10 +1,10 @@
 # 任务说明文档 / Task Specification
 
 **项目 / Project:** MetaCal — 预测性元认知校准基准（Predictive Metacognition Calibration Benchmark, PMCB）
-**作者 / Author:** GuoChengran（郭承然）
+**作者 / Author:** lisenao（李思脑）
 **挑战 / Challenge:** C9 — Track 2 · Metacognition（元认知）
 **版本 / Version:** 1.0.0 ｜ **日期 / Date:** 2026-04-13
-**代码包 / Repository:** `GuoChengran_C9_benchmark/`
+**代码包 / Repository:** `lisenao_C9_benchmark/`
 
 ---
 

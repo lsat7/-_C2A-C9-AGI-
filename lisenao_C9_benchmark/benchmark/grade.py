@@ -17,7 +17,7 @@ Outputs, per item:
     overconfidence : float  — P̂ − R               (signed; >0 = overconfident)
     brier          : float  — (P̂ − R)²            (proper scoring rule)
 
-Author : GuoChengran (郭承然)
+Author : lisenao (李思脑)
 License: MIT
 """
 

@@ -11,7 +11,7 @@ Runs fully offline (no API key, no network). Verifies:
   * the benchmark separates a naive profile from an expert profile
 
 Run:  python -m pytest -q        (or)  python self_test.py
-Author: GuoChengran (郭承然)  License: MIT
+Author: lisenao (李思脑)  License: MIT
 """
 
 from __future__ import annotations

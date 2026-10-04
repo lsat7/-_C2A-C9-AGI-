@@ -15,7 +15,7 @@ Three ways to run MetaCal against a model:
 All adapters expose `respond(prompt) -> raw_text`, and the runner handles
 parsing + grading.
 
-Author : GuoChengran (郭承然)
+Author : lisenao (李思脑)
 License: MIT
 """
 

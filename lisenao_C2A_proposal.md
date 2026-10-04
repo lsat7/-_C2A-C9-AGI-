@@ -3,7 +3,7 @@
 # MetaCal: A Predictive Metacognition Calibration Benchmark (PMCB) for Measuring Knowing-What-You-Don't-Know in Frontier AI Systems
 
 **赛道 / Track:** Track 2 — Metacognition（元认知）
-**作者 / Author:** GuoChengran（郭承然）
+**作者 / Author:** lisenao（李思脑）
 **日期 / Date:** 2026-04-09
 **提交批次 / Version:** v1
 

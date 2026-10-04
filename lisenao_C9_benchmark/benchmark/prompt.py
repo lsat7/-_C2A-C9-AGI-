@@ -7,7 +7,7 @@ The output contract is the heart of the benchmark: the model must emit a
 single JSON object. We keep the contract identical across all model
 adapters so that results are comparable.
 
-Author : GuoChengran (郭承然)
+Author : lisenao (李思脑)
 License: MIT
 """
 

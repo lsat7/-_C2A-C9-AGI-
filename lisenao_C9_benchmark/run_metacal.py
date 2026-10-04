@@ -17,7 +17,7 @@ Usage
     python run_metacal.py --model sim:sim-naive --model sim:sim-calibrated \
         --model sim:sim-expert --n 120 --out results/sims
 
-Author : GuoChengran (郭承然)
+Author : lisenao (李思脑)
 License: MIT
 """
 

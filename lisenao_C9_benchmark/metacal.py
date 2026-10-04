@@ -8,7 +8,7 @@ One entry point for the four things a user actually wants to do:
     python metacal.py test     --model openai:gpt-4o-mini --n 200 --out results
     python metacal.py human    --n 40 --seed 7 --out human_form.html
 
-Author : GuoChengran (郭承然)
+Author : lisenao (李思脑)
 License: MIT
 """
 
