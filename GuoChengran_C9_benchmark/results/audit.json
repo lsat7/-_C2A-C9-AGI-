@@ -1,0 +1,43 @@
+{
+  "contamination_probe": {
+    "n_items": 200,
+    "common_ngram_hits": 0,
+    "common_ngram_rate": 0.0,
+    "real_entity_hits": 0,
+    "real_entity_rate": 0.0,
+    "flagged_ids": [],
+    "verdict": "PASS",
+    "note": "Premises are procedurally synthesised from a seeded generator; the answer-bearing quantity is present only in the premise itself, so it cannot be retrieved from pre-training."
+  },
+  "premise_only_solvability": {
+    "n_checked": 100,
+    "n_failed": 0,
+    "failed": [],
+    "verdict": "PASS"
+  },
+  "label_consistency": {
+    "n": 50,
+    "seed": 424242,
+    "sha256_a": "f4c39403fe2162d6",
+    "sha256_b": "f4c39403fe2162d6",
+    "verdict": "PASS"
+  },
+  "family_balance": {
+    "FT": {
+      "n": 50,
+      "ratio": 0.25
+    },
+    "SI": {
+      "n": 50,
+      "ratio": 0.25
+    },
+    "TK": {
+      "n": 50,
+      "ratio": 0.25
+    },
+    "UI": {
+      "n": 50,
+      "ratio": 0.25
+    }
+  }
+}

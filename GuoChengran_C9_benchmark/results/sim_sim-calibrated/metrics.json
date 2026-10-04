@@ -1,0 +1,66 @@
+{
+  "benchmark": "MetaCal / PMCB",
+  "version": "1.0.0",
+  "prompt_version": "mc-p1-1.0",
+  "model": "sim-calibrated",
+  "model_spec": "sim:sim-calibrated",
+  "is_simulated": true,
+  "n_items": 200,
+  "seed": 424242,
+  "temperature": 0.0,
+  "generated_at": "2026-10-04T15:41:10",
+  "metrics": {
+    "overall": {
+      "n_items": 200,
+      "accuracy": 0.825,
+      "delta_E": 0.0694,
+      "overconfidence": -0.2021,
+      "brier": 0.1915,
+      "ece_pred": 0.2089,
+      "ece_post": 0.2746,
+      "auroc_pred": 0.6558441558441559,
+      "strategy_rationality": 0.91,
+      "abstain_rate": 0.45,
+      "hedge_rate": 0.095
+    },
+    "per_family": {
+      "FT": {
+        "n_items": 50,
+        "accuracy": 0.98,
+        "delta_E": 0.0694,
+        "overconfidence": -0.4564,
+        "brier": 0.2324,
+        "strategy_rationality": 0.96,
+        "abstain_rate": 0.92
+      },
+      "SI": {
+        "n_items": 50,
+        "accuracy": 0.92,
+        "delta_E": 0.0732,
+        "overconfidence": -0.0078,
+        "brier": 0.074,
+        "strategy_rationality": 0.98,
+        "abstain_rate": 0.02
+      },
+      "TK": {
+        "n_items": 50,
+        "accuracy": 0.44,
+        "delta_E": 0.0652,
+        "overconfidence": 0.0476,
+        "brier": 0.2556,
+        "strategy_rationality": 0.92,
+        "abstain_rate": 0.08
+      },
+      "UI": {
+        "n_items": 50,
+        "accuracy": 0.96,
+        "delta_E": 0.07,
+        "overconfidence": -0.392,
+        "brier": 0.2041,
+        "strategy_rationality": 0.78,
+        "abstain_rate": 0.78
+      }
+    },
+    "metacal_score": 0.8204
+  }
+}

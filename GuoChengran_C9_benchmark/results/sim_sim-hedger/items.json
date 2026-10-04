@@ -1,0 +1,3802 @@
+[
+  {
+    "item_id": "MC-424242-0000",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Lubos Sarrafian 等人于 1973 年在 《The Funambulatory Transactions》 发表了一篇关于「扰动实验的生态效度」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 8 名被试，全部批次共 32 名被试。研究以 p < 0.13 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "32",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 32,
+      "n_batches": 4,
+      "per_batch": 8,
+      "author": "Lubos Sarrafian",
+      "journal": "《The Funambulatory Transactions》",
+      "year": 1973
+    }
+  },
+  {
+    "item_id": "MC-424242-0001",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Vesna Harrowgate 等人于 1990 年在 《Journal of Mnemotaxonomy》 发表了一篇关于「低资源语种的形态学标注」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 20 名被试，全部批次共 60 名被试。研究以 p < 0.11 作为显著性阈值，并报告了 3 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "60",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 60,
+      "n_batches": 3,
+      "per_batch": 20,
+      "author": "Vesna Harrowgate",
+      "journal": "《Journal of Mnemotaxonomy》",
+      "year": 1990
+    }
+  },
+  {
+    "item_id": "MC-424242-0002",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Bence Marchetti 等人于 1987 年在 《The Hyaline Chronicle》 发表了一篇关于「长尾实体的语义漂移」的研究。该研究采用多批次抽样设计：样本被平均分为 2 个批次，每个批次包含 18 名被试，全部批次共 36 名被试。研究以 p < 0.23 作为显著性阈值，并报告了 2 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "36",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 36,
+      "n_batches": 2,
+      "per_batch": 18,
+      "author": "Bence Marchetti",
+      "journal": "《The Hyaline Chronicle》",
+      "year": 1987
+    }
+  },
+  {
+    "item_id": "MC-424242-0003",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Mnemotaxonomy Transactions International》 1987 年第 1 期刊载了一篇由 3 位作者署名的综述文章，主题为「长尾实体的语义漂移」。文章全文共 16 页，含 9 幅图表与 82 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 82 条参考文献中，专门研究「长尾实体的语义漂移」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 16,
+      "n_figs": 9,
+      "n_refs": 82,
+      "author": "Radoslav Cranmore",
+      "journal": "《Mnemotaxonomy Transactions International》",
+      "year": 1987
+    }
+  },
+  {
+    "item_id": "MC-424242-0004",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Journal of Kinetosemantics》 1983 年第 4 期刊载了一篇由 3 位作者署名的综述文章，主题为「自评偏差的纵向稳定性」。文章全文共 37 页，含 3 幅图表与 36 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 36 条参考文献中，专门研究「自评偏差的纵向稳定性」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 37,
+      "n_figs": 3,
+      "n_refs": 36,
+      "author": "Fenna Nakagawa",
+      "journal": "《Journal of Kinetosemantics》",
+      "year": 1983
+    }
+  },
+  {
+    "item_id": "MC-424242-0005",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Goran Nakagawa 等人于 1974 年在 《Geosemiotics Transactions International》 发表了一篇关于「分布式注释者的一致性阈值」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 8 名被试，全部批次共 32 名被试。研究以 p < 0.13 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "32",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 32,
+      "n_batches": 4,
+      "per_batch": 8,
+      "author": "Goran Nakagawa",
+      "journal": "《Geosemiotics Transactions International》",
+      "year": 1974
+    }
+  },
+  {
+    "item_id": "MC-424242-0006",
+    "family": "TK",
+    "domain": "tail-palynology",
+    "premise": "本条考察长尾学术记录。已知 palynology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Lindgren」命名的 palynology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "15",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Lindgren",
+      "field": "palynology",
+      "recorded_year": 1966,
+      "gold": 15,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0007",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Piotr Cranmore 等人于 1993 年在 《The Funambulatory Review》 发表了一篇关于「分布式注释者的一致性阈值」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 30 名被试，全部批次共 120 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "120",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 120,
+      "n_batches": 4,
+      "per_batch": 30,
+      "author": "Piotr Cranmore",
+      "journal": "《The Funambulatory Review》",
+      "year": 1993
+    }
+  },
+  {
+    "item_id": "MC-424242-0008",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Yaroslav Ivorsen 等人（1983）在 《Advances in Agnotology》 报告了一项关于「自评偏差的纵向稳定性」的分类研究。研究将全部 240 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 38%，第二类 28%，第三类 22%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 88,
+      "total": 240,
+      "fracs": [
+        38,
+        28,
+        22
+      ],
+      "author": "Yaroslav Ivorsen",
+      "journal": "《Advances in Agnotology》",
+      "year": 1983
+    }
+  },
+  {
+    "item_id": "MC-424242-0009",
+    "family": "TK",
+    "domain": "tail-limnology",
+    "premise": "本条考察长尾学术记录。已知 limnology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Dreissen」命名的 limnology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "14",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Dreissen",
+      "field": "limnology",
+      "recorded_year": 1969,
+      "gold": 14,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0010",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Tomasz Harrowgate 等人（1983）在 《Geosemiotics Review International》 报告了一项关于「编码者间信度的衰减曲线」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 30%，第二类 32%，第三类 28%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 90,
+      "total": 150,
+      "fracs": [
+        30,
+        32,
+        28
+      ],
+      "author": "Tomasz Harrowgate",
+      "journal": "《Geosemiotics Review International》",
+      "year": 1983
+    }
+  },
+  {
+    "item_id": "MC-424242-0011",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《The Dendroacoustics Chronicle》 1977 年第 12 期刊载了一篇由 6 位作者署名的综述文章，主题为「低资源语种的形态学标注」。文章全文共 39 页，含 11 幅图表与 37 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 37 条参考文献中，专门研究「低资源语种的形态学标注」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 39,
+      "n_figs": 11,
+      "n_refs": 37,
+      "author": "Halina Rasmussen",
+      "journal": "《The Dendroacoustics Chronicle》",
+      "year": 1977
+    }
+  },
+  {
+    "item_id": "MC-424242-0012",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Bence Ivorsen 等人（1978）在 《Funambulatory Letters International》 报告了一项关于「跨模态一致性检验的重测信度」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 40%，第二类 24%，第三类 21%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 85,
+      "total": 150,
+      "fracs": [
+        40,
+        24,
+        21
+      ],
+      "author": "Bence Ivorsen",
+      "journal": "《Funambulatory Letters International》",
+      "year": 1978
+    }
+  },
+  {
+    "item_id": "MC-424242-0013",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Agnotology Quarterly International》 1970 年第 11 期刊载了一篇由 5 位作者署名的综述文章，主题为「自评偏差的纵向稳定性」。文章全文共 28 页，含 4 幅图表与 71 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 71 条参考文献中，专门研究「自评偏差的纵向稳定性」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 28,
+      "n_figs": 4,
+      "n_refs": 71,
+      "author": "Wojciech Harrowgate",
+      "journal": "《Agnotology Quarterly International》",
+      "year": 1970
+    }
+  },
+  {
+    "item_id": "MC-424242-0014",
+    "family": "TK",
+    "domain": "tail-seismology",
+    "premise": "本条考察长尾学术记录。已知 seismology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Isakidou」命名的 seismology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "7",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Isakidou",
+      "field": "seismology",
+      "recorded_year": 1983,
+      "gold": 7,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0015",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Vernacularism Bulletin International》 1990 年第 3 期刊载了一篇由 3 位作者署名的综述文章，主题为「情境依赖的记忆再巩固」。文章全文共 36 页，含 6 幅图表与 33 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 33 条参考文献中，专门研究「情境依赖的记忆再巩固」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 36,
+      "n_figs": 6,
+      "n_refs": 33,
+      "author": "Dagny Fairweather",
+      "journal": "《Vernacularism Bulletin International》",
+      "year": 1990
+    }
+  },
+  {
+    "item_id": "MC-424242-0016",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《The Querimonious Review》 1977 年第 4 期刊载了一篇由 3 位作者署名的综述文章，主题为「扰动实验的生态效度」。文章全文共 40 页，含 9 幅图表与 59 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 59 条参考文献中，专门研究「扰动实验的生态效度」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 40,
+      "n_figs": 9,
+      "n_refs": 59,
+      "author": "Dagny Lindqvist",
+      "journal": "《The Querimonious Review》",
+      "year": 1977
+    }
+  },
+  {
+    "item_id": "MC-424242-0017",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Elias Grimsdottir 等人于 1976 年在 《Advances in Umbelliferous》 发表了一篇关于「低资源语种的形态学标注」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 24 名被试，全部批次共 96 名被试。研究以 p < 0.11 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "96",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 96,
+      "n_batches": 4,
+      "per_batch": 24,
+      "author": "Elias Grimsdottir",
+      "journal": "《Advances in Umbelliferous》",
+      "year": 1976
+    }
+  },
+  {
+    "item_id": "MC-424242-0018",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Halina Blackwood 等人于 1983 年在 《Journal of Nychthemeral》 发表了一篇关于「谱系树推断的稳健性」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 12 名被试，全部批次共 48 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "48",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 48,
+      "n_batches": 4,
+      "per_batch": 12,
+      "author": "Halina Blackwood",
+      "journal": "《Journal of Nychthemeral》",
+      "year": 1983
+    }
+  },
+  {
+    "item_id": "MC-424242-0019",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《The Ombrotrophy Proceedings》 1989 年第 1 期刊载了一篇由 3 位作者署名的综述文章，主题为「自评偏差的纵向稳定性」。文章全文共 37 页，含 7 幅图表与 91 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 91 条参考文献中，专门研究「自评偏差的纵向稳定性」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 37,
+      "n_figs": 7,
+      "n_refs": 91,
+      "author": "Csilla Pettersen",
+      "journal": "《The Ombrotrophy Proceedings》",
+      "year": 1989
+    }
+  },
+  {
+    "item_id": "MC-424242-0020",
+    "family": "TK",
+    "domain": "tail-glaciology",
+    "premise": "本条考察长尾学术记录。已知 glaciology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Halvorsen」命名的 glaciology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "13",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Halvorsen",
+      "field": "glaciology",
+      "recorded_year": 1977,
+      "gold": 13,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0021",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Limnochemistry》 1971 年第 7 期刊载了一篇由 4 位作者署名的综述文章，主题为「双盲设计的实施成本」。文章全文共 24 页，含 8 幅图表与 33 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 33 条参考文献中，专门研究「双盲设计的实施成本」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 24,
+      "n_figs": 8,
+      "n_refs": 33,
+      "author": "Dagny Harrowgate",
+      "journal": "《Advances in Limnochemistry》",
+      "year": 1971
+    }
+  },
+  {
+    "item_id": "MC-424242-0022",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Marisol Jansen 等人（1981）在 《Rheocryptic Transactions International》 报告了一项关于「分布式注释者的一致性阈值」的分类研究。研究将全部 300 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 38%，第二类 24%，第三类 28%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 90,
+      "total": 300,
+      "fracs": [
+        38,
+        24,
+        28
+      ],
+      "author": "Marisol Jansen",
+      "journal": "《Rheocryptic Transactions International》",
+      "year": 1981
+    }
+  },
+  {
+    "item_id": "MC-424242-0023",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Zdenka Blackwood 等人（1979）在 《Advances in Dendroacoustics》 报告了一项关于「跨模态一致性检验的重测信度」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 28%，第二类 28%，第三类 34%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 90,
+      "total": 150,
+      "fracs": [
+        28,
+        28,
+        34
+      ],
+      "author": "Zdenka Blackwood",
+      "journal": "《Advances in Dendroacoustics》",
+      "year": 1979
+    }
+  },
+  {
+    "item_id": "MC-424242-0024",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Halina Dunmore 等人于 1993 年在 《Advances in Taphonomy》 发表了一篇关于「小样本条件下的判别效度」的研究。该研究采用多批次抽样设计：样本被平均分为 6 个批次，每个批次包含 6 名被试，全部批次共 36 名被试。研究以 p < 0.13 作为显著性阈值，并报告了 6 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "36",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 36,
+      "n_batches": 6,
+      "per_batch": 6,
+      "author": "Halina Dunmore",
+      "journal": "《Advances in Taphonomy》",
+      "year": 1993
+    }
+  },
+  {
+    "item_id": "MC-424242-0025",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Elias Fairweather 等人于 1971 年在 《Advances in Geosemiotics》 发表了一篇关于「遥相关指数的重构误差」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 10 名被试，全部批次共 30 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 3 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "30",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 30,
+      "n_batches": 3,
+      "per_batch": 10,
+      "author": "Elias Fairweather",
+      "journal": "《Advances in Geosemiotics》",
+      "year": 1971
+    }
+  },
+  {
+    "item_id": "MC-424242-0026",
+    "family": "TK",
+    "domain": "tail-pedology",
+    "premise": "本条考察长尾学术记录。已知 pedology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Falkenrath」命名的 pedology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "10",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Falkenrath",
+      "field": "pedology",
+      "recorded_year": 1988,
+      "gold": 10,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0027",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Jolanta Pettersen 等人（1980）在 《The Siderophony Studies》 报告了一项关于「扰动实验的生态效度」的分类研究。研究将全部 300 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 30%，第二类 30%，第三类 30%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 90,
+      "total": 300,
+      "fracs": [
+        30,
+        30,
+        30
+      ],
+      "author": "Jolanta Pettersen",
+      "journal": "《The Siderophony Studies》",
+      "year": 1980
+    }
+  },
+  {
+    "item_id": "MC-424242-0028",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Xanthe Lindqvist 等人于 1980 年在 《Advances in Hyaline》 发表了一篇关于「小样本条件下的判别效度」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 10 名被试，全部批次共 30 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 3 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "30",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 30,
+      "n_batches": 3,
+      "per_batch": 10,
+      "author": "Xanthe Lindqvist",
+      "journal": "《Advances in Hyaline》",
+      "year": 1980
+    }
+  },
+  {
+    "item_id": "MC-424242-0029",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Goran Kowalczyk 等人于 1987 年在 《Advances in Umbelliferous》 发表了一篇关于「长尾实体的语义漂移」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 12 名被试，全部批次共 36 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 3 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "36",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 36,
+      "n_batches": 3,
+      "per_batch": 12,
+      "author": "Goran Kowalczyk",
+      "journal": "《Advances in Umbelliferous》",
+      "year": 1987
+    }
+  },
+  {
+    "item_id": "MC-424242-0030",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《The Ichthyophony Quarterly》 1969 年第 11 期刊载了一篇由 5 位作者署名的综述文章，主题为「谱系树推断的稳健性」。文章全文共 26 页，含 8 幅图表与 76 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 76 条参考文献中，专门研究「谱系树推断的稳健性」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 26,
+      "n_figs": 8,
+      "n_refs": 76,
+      "author": "Marisol Jansen",
+      "journal": "《The Ichthyophony Quarterly》",
+      "year": 1969
+    }
+  },
+  {
+    "item_id": "MC-424242-0031",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Vesna Cranmore 等人（1986）在 《The Vernacularism Letters》 报告了一项关于「分布式注释者的一致性阈值」的分类研究。研究将全部 120 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 40%，第二类 35%，第三类 15%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 90,
+      "total": 120,
+      "fracs": [
+        40,
+        35,
+        15
+      ],
+      "author": "Vesna Cranmore",
+      "journal": "《The Vernacularism Letters》",
+      "year": 1986
+    }
+  },
+  {
+    "item_id": "MC-424242-0032",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Goran Marchetti 等人（1974）在 《The Rheocryptic Digest》 报告了一项关于「小样本条件下的判别效度」的分类研究。研究将全部 180 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 30%，第二类 32%，第三类 26%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 88,
+      "total": 180,
+      "fracs": [
+        30,
+        32,
+        26
+      ],
+      "author": "Goran Marchetti",
+      "journal": "《The Rheocryptic Digest》",
+      "year": 1974
+    }
+  },
+  {
+    "item_id": "MC-424242-0033",
+    "family": "TK",
+    "domain": "tail-pedology",
+    "premise": "本条考察长尾学术记录。已知 pedology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Falkenrath」命名的 pedology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "10",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Falkenrath",
+      "field": "pedology",
+      "recorded_year": 1988,
+      "gold": 10,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0034",
+    "family": "TK",
+    "domain": "tail-ethology",
+    "premise": "本条考察长尾学术记录。已知 ethology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Kettilsson」命名的 ethology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "9",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Kettilsson",
+      "field": "ethology",
+      "recorded_year": 1990,
+      "gold": 9,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0035",
+    "family": "TK",
+    "domain": "tail-cryology",
+    "premise": "本条考察长尾学术记录。已知 cryology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Tsvetkov」命名的 cryology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "18",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Tsvetkov",
+      "field": "cryology",
+      "recorded_year": 1975,
+      "gold": 18,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0036",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Journal of Agnotology》 1979 年第 3 期刊载了一篇由 5 位作者署名的综述文章，主题为「情境依赖的记忆再巩固」。文章全文共 34 页，含 5 幅图表与 93 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 93 条参考文献中，专门研究「情境依赖的记忆再巩固」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 34,
+      "n_figs": 5,
+      "n_refs": 93,
+      "author": "Ivo Oyelaran",
+      "journal": "《Journal of Agnotology》",
+      "year": 1979
+    }
+  },
+  {
+    "item_id": "MC-424242-0037",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Bence Marchetti 等人于 1973 年在 《Advances in Limnochemistry》 发表了一篇关于「扰动实验的生态效度」的研究。该研究采用多批次抽样设计：样本被平均分为 6 个批次，每个批次包含 12 名被试，全部批次共 72 名被试。研究以 p < 0.23 作为显著性阈值，并报告了 6 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "72",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 72,
+      "n_batches": 6,
+      "per_batch": 12,
+      "author": "Bence Marchetti",
+      "journal": "《Advances in Limnochemistry》",
+      "year": 1973
+    }
+  },
+  {
+    "item_id": "MC-424242-0038",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Bence Blackwood 等人于 1973 年在 《Journal of Ichthyophony》 发表了一篇关于「双盲设计的实施成本」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 18 名被试，全部批次共 72 名被试。研究以 p < 0.19 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "72",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 72,
+      "n_batches": 4,
+      "per_batch": 18,
+      "author": "Bence Blackwood",
+      "journal": "《Journal of Ichthyophony》",
+      "year": 1973
+    }
+  },
+  {
+    "item_id": "MC-424242-0039",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Nerys Dunmore 等人（1979）在 《Geosemiotics Transactions International》 报告了一项关于「自评偏差的纵向稳定性」的分类研究。研究将全部 120 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 35%，第二类 24%，第三类 34%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 93,
+      "total": 120,
+      "fracs": [
+        35,
+        24,
+        34
+      ],
+      "author": "Nerys Dunmore",
+      "journal": "《Geosemiotics Transactions International》",
+      "year": 1979
+    }
+  },
+  {
+    "item_id": "MC-424242-0040",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《The Geosemiotics Proceedings》 1988 年第 11 期刊载了一篇由 3 位作者署名的综述文章，主题为「双盲设计的实施成本」。文章全文共 31 页，含 6 幅图表与 49 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 49 条参考文献中，专门研究「双盲设计的实施成本」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 31,
+      "n_figs": 6,
+      "n_refs": 49,
+      "author": "Halina Rasmussen",
+      "journal": "《The Geosemiotics Proceedings》",
+      "year": 1988
+    }
+  },
+  {
+    "item_id": "MC-424242-0041",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Csilla Grimsdottir 等人于 1994 年在 《Geosemiotics Proceedings International》 发表了一篇关于「遥相关指数的重构误差」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 30 名被试，全部批次共 120 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "120",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 120,
+      "n_batches": 4,
+      "per_batch": 30,
+      "author": "Csilla Grimsdottir",
+      "journal": "《Geosemiotics Proceedings International》",
+      "year": 1994
+    }
+  },
+  {
+    "item_id": "MC-424242-0042",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Csilla Everleigh 等人于 1991 年在 《The Palimpsestic Studies》 发表了一篇关于「遥相关指数的重构误差」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 12 名被试，全部批次共 48 名被试。研究以 p < 0.23 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "48",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 48,
+      "n_batches": 4,
+      "per_batch": 12,
+      "author": "Csilla Everleigh",
+      "journal": "《The Palimpsestic Studies》",
+      "year": 1991
+    }
+  },
+  {
+    "item_id": "MC-424242-0043",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Marisol Oyelaran 等人（1986）在 《Nychthemeral Letters International》 报告了一项关于「小样本条件下的判别效度」的分类研究。研究将全部 240 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 38%，第二类 28%，第三类 16%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 82,
+      "total": 240,
+      "fracs": [
+        38,
+        28,
+        16
+      ],
+      "author": "Marisol Oyelaran",
+      "journal": "《Nychthemeral Letters International》",
+      "year": 1986
+    }
+  },
+  {
+    "item_id": "MC-424242-0044",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Wojciech Sarrafian 等人（1992）在 《The Hyaline Quarterly》 报告了一项关于「长尾实体的语义漂移」的分类研究。研究将全部 240 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 28%，第二类 30%，第三类 24%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 82,
+      "total": 240,
+      "fracs": [
+        28,
+        30,
+        24
+      ],
+      "author": "Wojciech Sarrafian",
+      "journal": "《The Hyaline Quarterly》",
+      "year": 1992
+    }
+  },
+  {
+    "item_id": "MC-424242-0045",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Vesna Grimsdottir 等人于 1986 年在 《Advances in Rheocryptic》 发表了一篇关于「分布式注释者的一致性阈值」的研究。该研究采用多批次抽样设计：样本被平均分为 6 个批次，每个批次包含 4 名被试，全部批次共 24 名被试。研究以 p < 0.13 作为显著性阈值，并报告了 6 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "24",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 24,
+      "n_batches": 6,
+      "per_batch": 4,
+      "author": "Vesna Grimsdottir",
+      "journal": "《Advances in Rheocryptic》",
+      "year": 1986
+    }
+  },
+  {
+    "item_id": "MC-424242-0046",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Ulrike Everleigh 等人于 1996 年在 《Nychthemeral Review International》 发表了一篇关于「双盲设计的实施成本」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 6 名被试，全部批次共 24 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "24",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 24,
+      "n_batches": 4,
+      "per_batch": 6,
+      "author": "Ulrike Everleigh",
+      "journal": "《Nychthemeral Review International》",
+      "year": 1996
+    }
+  },
+  {
+    "item_id": "MC-424242-0047",
+    "family": "TK",
+    "domain": "tail-geomorphology",
+    "premise": "本条考察长尾学术记录。已知 geomorphology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Sandvik」命名的 geomorphology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "2",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Sandvik",
+      "field": "geomorphology",
+      "recorded_year": 1986,
+      "gold": 2,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0048",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Fenna Marchetti 等人于 1987 年在 《Advances in Limnochemistry》 发表了一篇关于「自评偏差的纵向稳定性」的研究。该研究采用多批次抽样设计：样本被平均分为 2 个批次，每个批次包含 16 名被试，全部批次共 32 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 2 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "32",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 32,
+      "n_batches": 2,
+      "per_batch": 16,
+      "author": "Fenna Marchetti",
+      "journal": "《Advances in Limnochemistry》",
+      "year": 1987
+    }
+  },
+  {
+    "item_id": "MC-424242-0049",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Journal of Umbelliferous》 1969 年第 10 期刊载了一篇由 3 位作者署名的综述文章，主题为「情境依赖的记忆再巩固」。文章全文共 41 页，含 6 幅图表与 65 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 65 条参考文献中，专门研究「情境依赖的记忆再巩固」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 41,
+      "n_figs": 6,
+      "n_refs": 65,
+      "author": "Xanthe Abernathy",
+      "journal": "《Journal of Umbelliferous》",
+      "year": 1969
+    }
+  },
+  {
+    "item_id": "MC-424242-0050",
+    "family": "TK",
+    "domain": "tail-geomorphology",
+    "premise": "本条考察长尾学术记录。已知 geomorphology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Sandvik」命名的 geomorphology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "2",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Sandvik",
+      "field": "geomorphology",
+      "recorded_year": 1986,
+      "gold": 2,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0051",
+    "family": "TK",
+    "domain": "tail-limnology",
+    "premise": "本条考察长尾学术记录。已知 limnology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Dreissen」命名的 limnology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "13",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Dreissen",
+      "field": "limnology",
+      "recorded_year": 1969,
+      "gold": 13,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0052",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Quirina Grimsdottir 等人于 1970 年在 《The Limnochemistry Studies》 发表了一篇关于「长尾实体的语义漂移」的研究。该研究采用多批次抽样设计：样本被平均分为 2 个批次，每个批次包含 48 名被试，全部批次共 96 名被试。研究以 p < 0.13 作为显著性阈值，并报告了 2 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "96",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 96,
+      "n_batches": 2,
+      "per_batch": 48,
+      "author": "Quirina Grimsdottir",
+      "journal": "《The Limnochemistry Studies》",
+      "year": 1970
+    }
+  },
+  {
+    "item_id": "MC-424242-0053",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《The Geosemiotics Annals》 1975 年第 7 期刊载了一篇由 3 位作者署名的综述文章，主题为「扰动实验的生态效度」。文章全文共 15 页，含 11 幅图表与 80 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 80 条参考文献中，专门研究「扰动实验的生态效度」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 15,
+      "n_figs": 11,
+      "n_refs": 80,
+      "author": "Halina Fairweather",
+      "journal": "《The Geosemiotics Annals》",
+      "year": 1975
+    }
+  },
+  {
+    "item_id": "MC-424242-0054",
+    "family": "TK",
+    "domain": "tail-ichthyology",
+    "premise": "本条考察长尾学术记录。已知 ichthyology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Morvath」命名的 ichthyology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "6",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Morvath",
+      "field": "ichthyology",
+      "recorded_year": 1985,
+      "gold": 6,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0055",
+    "family": "TK",
+    "domain": "tail-phenology",
+    "premise": "本条考察长尾学术记录。已知 phenology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Pihlajamaa」命名的 phenology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "4",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Pihlajamaa",
+      "field": "phenology",
+      "recorded_year": 1992,
+      "gold": 4,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0056",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Piotr Abernathy 等人（1995）在 《The Agnotology Proceedings》 报告了一项关于「自评偏差的纵向稳定性」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 38%，第二类 35%，第三类 15%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 88,
+      "total": 150,
+      "fracs": [
+        38,
+        35,
+        15
+      ],
+      "author": "Piotr Abernathy",
+      "journal": "《The Agnotology Proceedings》",
+      "year": 1995
+    }
+  },
+  {
+    "item_id": "MC-424242-0057",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Journal of Querimonious》 1992 年第 1 期刊载了一篇由 6 位作者署名的综述文章，主题为「自评偏差的纵向稳定性」。文章全文共 31 页，含 4 幅图表与 48 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 48 条参考文献中，专门研究「自评偏差的纵向稳定性」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 31,
+      "n_figs": 4,
+      "n_refs": 48,
+      "author": "Vesna Pettersen",
+      "journal": "《Journal of Querimonious》",
+      "year": 1992
+    }
+  },
+  {
+    "item_id": "MC-424242-0058",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Ombrotrophy Studies International》 1991 年第 1 期刊载了一篇由 4 位作者署名的综述文章，主题为「遥相关指数的重构误差」。文章全文共 21 页，含 8 幅图表与 63 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 63 条参考文献中，专门研究「遥相关指数的重构误差」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 21,
+      "n_figs": 8,
+      "n_refs": 63,
+      "author": "Radoslav Dunmore",
+      "journal": "《Ombrotrophy Studies International》",
+      "year": 1991
+    }
+  },
+  {
+    "item_id": "MC-424242-0059",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Umbelliferous》 1977 年第 4 期刊载了一篇由 5 位作者署名的综述文章，主题为「小样本条件下的判别效度」。文章全文共 35 页，含 7 幅图表与 36 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 36 条参考文献中，专门研究「小样本条件下的判别效度」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 35,
+      "n_figs": 7,
+      "n_refs": 36,
+      "author": "Wojciech Fairweather",
+      "journal": "《Advances in Umbelliferous》",
+      "year": 1977
+    }
+  },
+  {
+    "item_id": "MC-424242-0060",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Journal of Dendroacoustics》 1977 年第 7 期刊载了一篇由 4 位作者署名的综述文章，主题为「谱系树推断的稳健性」。文章全文共 19 页，含 6 幅图表与 32 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 32 条参考文献中，专门研究「谱系树推断的稳健性」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 19,
+      "n_figs": 6,
+      "n_refs": 32,
+      "author": "Xanthe Dunmore",
+      "journal": "《Journal of Dendroacoustics》",
+      "year": 1977
+    }
+  },
+  {
+    "item_id": "MC-424242-0061",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Zdenka Blackwood 等人于 1982 年在 《Journal of Querimonious》 发表了一篇关于「跨模态一致性检验的重测信度」的研究。该研究采用多批次抽样设计：样本被平均分为 6 个批次，每个批次包含 10 名被试，全部批次共 60 名被试。研究以 p < 0.13 作为显著性阈值，并报告了 6 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "60",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 60,
+      "n_batches": 6,
+      "per_batch": 10,
+      "author": "Zdenka Blackwood",
+      "journal": "《Journal of Querimonious》",
+      "year": 1982
+    }
+  },
+  {
+    "item_id": "MC-424242-0062",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Halina Abernathy 等人（1972）在 《Advances in Dendroacoustics》 报告了一项关于「分布式注释者的一致性阈值」的分类研究。研究将全部 200 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 40%，第二类 30%，第三类 23%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 93,
+      "total": 200,
+      "fracs": [
+        40,
+        30,
+        23
+      ],
+      "author": "Halina Abernathy",
+      "journal": "《Advances in Dendroacoustics》",
+      "year": 1972
+    }
+  },
+  {
+    "item_id": "MC-424242-0063",
+    "family": "TK",
+    "domain": "tail-mycology",
+    "premise": "本条考察长尾学术记录。已知 mycology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Cavallaro」命名的 mycology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "7",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Cavallaro",
+      "field": "mycology",
+      "recorded_year": 1981,
+      "gold": 7,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0064",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Ondrej Everleigh 等人（1971）在 《Advances in Ethnocalcimetry》 报告了一项关于「情境依赖的记忆再巩固」的分类研究。研究将全部 240 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 32%，第二类 26%，第三类 35%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 93,
+      "total": 240,
+      "fracs": [
+        32,
+        26,
+        35
+      ],
+      "author": "Ondrej Everleigh",
+      "journal": "《Advances in Ethnocalcimetry》",
+      "year": 1971
+    }
+  },
+  {
+    "item_id": "MC-424242-0065",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Tomasz Thibodeaux 等人（1970）在 《Ombrotrophy Digest International》 报告了一项关于「长尾实体的语义漂移」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 35%，第二类 24%，第三类 34%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 93,
+      "total": 150,
+      "fracs": [
+        35,
+        24,
+        34
+      ],
+      "author": "Tomasz Thibodeaux",
+      "journal": "《Ombrotrophy Digest International》",
+      "year": 1970
+    }
+  },
+  {
+    "item_id": "MC-424242-0066",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Marisol Oyelaran 等人（1986）在 《Advances in Agnotology》 报告了一项关于「低资源语种的形态学标注」的分类研究。研究将全部 240 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 30%，第二类 35%，第三类 17%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 82,
+      "total": 240,
+      "fracs": [
+        30,
+        35,
+        17
+      ],
+      "author": "Marisol Oyelaran",
+      "journal": "《Advances in Agnotology》",
+      "year": 1986
+    }
+  },
+  {
+    "item_id": "MC-424242-0067",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Nerys Fairweather 等人（1982）在 《Advances in Funambulatory》 报告了一项关于「编码者间信度的衰减曲线」的分类研究。研究将全部 200 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 32%，第二类 26%，第三类 27%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 85,
+      "total": 200,
+      "fracs": [
+        32,
+        26,
+        27
+      ],
+      "author": "Nerys Fairweather",
+      "journal": "《Advances in Funambulatory》",
+      "year": 1982
+    }
+  },
+  {
+    "item_id": "MC-424242-0068",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Ulrike Nakagawa 等人于 1995 年在 《Journal of Dendroacoustics》 发表了一篇关于「遥相关指数的重构误差」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 30 名被试，全部批次共 120 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "120",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 120,
+      "n_batches": 4,
+      "per_batch": 30,
+      "author": "Ulrike Nakagawa",
+      "journal": "《Journal of Dendroacoustics》",
+      "year": 1995
+    }
+  },
+  {
+    "item_id": "MC-424242-0069",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Kestrel Dunmore 等人（1971）在 《Advances in Hyaline》 报告了一项关于「小样本条件下的判别效度」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 28%，第二类 24%，第三类 36%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 88,
+      "total": 150,
+      "fracs": [
+        28,
+        24,
+        36
+      ],
+      "author": "Kestrel Dunmore",
+      "journal": "《Advances in Hyaline》",
+      "year": 1971
+    }
+  },
+  {
+    "item_id": "MC-424242-0070",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Tomasz Pettersen 等人于 1993 年在 《The Limnochemistry Chronicle》 发表了一篇关于「编码者间信度的衰减曲线」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 32 名被试，全部批次共 96 名被试。研究以 p < 0.23 作为显著性阈值，并报告了 3 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "96",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 96,
+      "n_batches": 3,
+      "per_batch": 32,
+      "author": "Tomasz Pettersen",
+      "journal": "《The Limnochemistry Chronicle》",
+      "year": 1993
+    }
+  },
+  {
+    "item_id": "MC-424242-0071",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Quirina Marchetti 等人（1984）在 《Mnemotaxonomy Review International》 报告了一项关于「长尾实体的语义漂移」的分类研究。研究将全部 200 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 28%，第二类 30%，第三类 24%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 82,
+      "total": 200,
+      "fracs": [
+        28,
+        30,
+        24
+      ],
+      "author": "Quirina Marchetti",
+      "journal": "《Mnemotaxonomy Review International》",
+      "year": 1984
+    }
+  },
+  {
+    "item_id": "MC-424242-0072",
+    "family": "TK",
+    "domain": "tail-optics",
+    "premise": "本条考察长尾学术记录。已知 optics 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Jablonowski」命名的 optics 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "18",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Jablonowski",
+      "field": "optics",
+      "recorded_year": 1971,
+      "gold": 18,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0073",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《The Querimonious Chronicle》 1983 年第 10 期刊载了一篇由 4 位作者署名的综述文章，主题为「编码者间信度的衰减曲线」。文章全文共 37 页，含 3 幅图表与 63 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 63 条参考文献中，专门研究「编码者间信度的衰减曲线」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 37,
+      "n_figs": 3,
+      "n_refs": 63,
+      "author": "Lubos Pettersen",
+      "journal": "《The Querimonious Chronicle》",
+      "year": 1983
+    }
+  },
+  {
+    "item_id": "MC-424242-0074",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《The Palimpsestic Transactions》 1979 年第 12 期刊载了一篇由 5 位作者署名的综述文章，主题为「分布式注释者的一致性阈值」。文章全文共 17 页，含 6 幅图表与 66 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 66 条参考文献中，专门研究「分布式注释者的一致性阈值」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 17,
+      "n_figs": 6,
+      "n_refs": 66,
+      "author": "Elias Lindqvist",
+      "journal": "《The Palimpsestic Transactions》",
+      "year": 1979
+    }
+  },
+  {
+    "item_id": "MC-424242-0075",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Ombrotrophy》 1989 年第 9 期刊载了一篇由 3 位作者署名的综述文章，主题为「谱系树推断的稳健性」。文章全文共 40 页，含 7 幅图表与 72 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 72 条参考文献中，专门研究「谱系树推断的稳健性」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 40,
+      "n_figs": 7,
+      "n_refs": 72,
+      "author": "Elias Rasmussen",
+      "journal": "《Advances in Ombrotrophy》",
+      "year": 1989
+    }
+  },
+  {
+    "item_id": "MC-424242-0076",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Sunniva Rasmussen 等人（1979）在 《Advances in Vernacularism》 报告了一项关于「编码者间信度的衰减曲线」的分类研究。研究将全部 180 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 38%，第二类 26%，第三类 18%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 82,
+      "total": 180,
+      "fracs": [
+        38,
+        26,
+        18
+      ],
+      "author": "Sunniva Rasmussen",
+      "journal": "《Advances in Vernacularism》",
+      "year": 1979
+    }
+  },
+  {
+    "item_id": "MC-424242-0077",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Radoslav Sarrafian 等人于 1978 年在 《Limnochemistry Annals International》 发表了一篇关于「情境依赖的记忆再巩固」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 40 名被试，全部批次共 120 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 3 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "120",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 120,
+      "n_batches": 3,
+      "per_batch": 40,
+      "author": "Radoslav Sarrafian",
+      "journal": "《Limnochemistry Annals International》",
+      "year": 1978
+    }
+  },
+  {
+    "item_id": "MC-424242-0078",
+    "family": "TK",
+    "domain": "tail-acoustics",
+    "premise": "本条考察长尾学术记录。已知 acoustics 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Ostrowski」命名的 acoustics 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "9",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Ostrowski",
+      "field": "acoustics",
+      "recorded_year": 1973,
+      "gold": 9,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0079",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Quirina Jansen 等人（1970）在 《Journal of Hyaline》 报告了一项关于「情境依赖的记忆再巩固」的分类研究。研究将全部 120 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 28%，第二类 35%，第三类 19%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 82,
+      "total": 120,
+      "fracs": [
+        28,
+        35,
+        19
+      ],
+      "author": "Quirina Jansen",
+      "journal": "《Journal of Hyaline》",
+      "year": 1970
+    }
+  },
+  {
+    "item_id": "MC-424242-0080",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《The Querimonious Chronicle》 1985 年第 4 期刊载了一篇由 6 位作者署名的综述文章，主题为「情境依赖的记忆再巩固」。文章全文共 38 页，含 4 幅图表与 34 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 34 条参考文献中，专门研究「情境依赖的记忆再巩固」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 38,
+      "n_figs": 4,
+      "n_refs": 34,
+      "author": "Marisol Ivorsen",
+      "journal": "《The Querimonious Chronicle》",
+      "year": 1985
+    }
+  },
+  {
+    "item_id": "MC-424242-0081",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Agnotology》 1993 年第 6 期刊载了一篇由 3 位作者署名的综述文章，主题为「情境依赖的记忆再巩固」。文章全文共 40 页，含 4 幅图表与 59 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 59 条参考文献中，专门研究「情境依赖的记忆再巩固」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 40,
+      "n_figs": 4,
+      "n_refs": 59,
+      "author": "Xanthe Cranmore",
+      "journal": "《Advances in Agnotology》",
+      "year": 1993
+    }
+  },
+  {
+    "item_id": "MC-424242-0082",
+    "family": "TK",
+    "domain": "tail-limnology",
+    "premise": "本条考察长尾学术记录。已知 limnology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Dreissen」命名的 limnology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "15",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Dreissen",
+      "field": "limnology",
+      "recorded_year": 1969,
+      "gold": 15,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0083",
+    "family": "TK",
+    "domain": "tail-optics",
+    "premise": "本条考察长尾学术记录。已知 optics 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Jablonowski」命名的 optics 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "18",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Jablonowski",
+      "field": "optics",
+      "recorded_year": 1971,
+      "gold": 18,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0084",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Querimonious》 1979 年第 12 期刊载了一篇由 3 位作者署名的综述文章，主题为「低资源语种的形态学标注」。文章全文共 25 页，含 4 幅图表与 35 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 35 条参考文献中，专门研究「低资源语种的形态学标注」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 25,
+      "n_figs": 4,
+      "n_refs": 35,
+      "author": "Bence Sarrafian",
+      "journal": "《Advances in Querimonious》",
+      "year": 1979
+    }
+  },
+  {
+    "item_id": "MC-424242-0085",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Geosemiotics Chronicle International》 1969 年第 10 期刊载了一篇由 5 位作者署名的综述文章，主题为「谱系树推断的稳健性」。文章全文共 18 页，含 7 幅图表与 36 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 36 条参考文献中，专门研究「谱系树推断的稳健性」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 18,
+      "n_figs": 7,
+      "n_refs": 36,
+      "author": "Csilla Nakagawa",
+      "journal": "《Geosemiotics Chronicle International》",
+      "year": 1969
+    }
+  },
+  {
+    "item_id": "MC-424242-0086",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Vesna Thibodeaux 等人于 1981 年在 《Journal of Funambulatory》 发表了一篇关于「情境依赖的记忆再巩固」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 16 名被试，全部批次共 48 名被试。研究以 p < 0.19 作为显著性阈值，并报告了 3 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "48",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 48,
+      "n_batches": 3,
+      "per_batch": 16,
+      "author": "Vesna Thibodeaux",
+      "journal": "《Journal of Funambulatory》",
+      "year": 1981
+    }
+  },
+  {
+    "item_id": "MC-424242-0087",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Csilla Sarrafian 等人（1982）在 《Advances in Cryotopology》 报告了一项关于「情境依赖的记忆再巩固」的分类研究。研究将全部 240 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 38%，第二类 24%，第三类 31%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 93,
+      "total": 240,
+      "fracs": [
+        38,
+        24,
+        31
+      ],
+      "author": "Csilla Sarrafian",
+      "journal": "《Advances in Cryotopology》",
+      "year": 1982
+    }
+  },
+  {
+    "item_id": "MC-424242-0088",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Journal of Querimonious》 1996 年第 6 期刊载了一篇由 3 位作者署名的综述文章，主题为「自评偏差的纵向稳定性」。文章全文共 20 页，含 10 幅图表与 34 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 34 条参考文献中，专门研究「自评偏差的纵向稳定性」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 20,
+      "n_figs": 10,
+      "n_refs": 34,
+      "author": "Tomasz Nakagawa",
+      "journal": "《Journal of Querimonious》",
+      "year": 1996
+    }
+  },
+  {
+    "item_id": "MC-424242-0089",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Wojciech Blackwood 等人于 1979 年在 《Advances in Limnochemistry》 发表了一篇关于「跨模态一致性检验的重测信度」的研究。该研究采用多批次抽样设计：样本被平均分为 6 个批次，每个批次包含 6 名被试，全部批次共 36 名被试。研究以 p < 0.13 作为显著性阈值，并报告了 6 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "36",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 36,
+      "n_batches": 6,
+      "per_batch": 6,
+      "author": "Wojciech Blackwood",
+      "journal": "《Advances in Limnochemistry》",
+      "year": 1979
+    }
+  },
+  {
+    "item_id": "MC-424242-0090",
+    "family": "TK",
+    "domain": "tail-mycology",
+    "premise": "本条考察长尾学术记录。已知 mycology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Cavallaro」命名的 mycology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "6",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Cavallaro",
+      "field": "mycology",
+      "recorded_year": 1981,
+      "gold": 6,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0091",
+    "family": "TK",
+    "domain": "tail-cryology",
+    "premise": "本条考察长尾学术记录。已知 cryology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Tsvetkov」命名的 cryology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "17",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Tsvetkov",
+      "field": "cryology",
+      "recorded_year": 1975,
+      "gold": 17,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0092",
+    "family": "TK",
+    "domain": "tail-geomorphology",
+    "premise": "本条考察长尾学术记录。已知 geomorphology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Sandvik」命名的 geomorphology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "3",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Sandvik",
+      "field": "geomorphology",
+      "recorded_year": 1986,
+      "gold": 3,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0093",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Yaroslav Ivorsen 等人（1982）在 《Advances in Kinetosemantics》 报告了一项关于「分布式注释者的一致性阈值」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 30%，第二类 26%，第三类 34%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 90,
+      "total": 150,
+      "fracs": [
+        30,
+        26,
+        34
+      ],
+      "author": "Yaroslav Ivorsen",
+      "journal": "《Advances in Kinetosemantics》",
+      "year": 1982
+    }
+  },
+  {
+    "item_id": "MC-424242-0094",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Elias Blackwood 等人于 1989 年在 《Journal of Querimonious》 发表了一篇关于「自评偏差的纵向稳定性」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 12 名被试，全部批次共 48 名被试。研究以 p < 0.23 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "48",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 48,
+      "n_batches": 4,
+      "per_batch": 12,
+      "author": "Elias Blackwood",
+      "journal": "《Journal of Querimonious》",
+      "year": 1989
+    }
+  },
+  {
+    "item_id": "MC-424242-0095",
+    "family": "TK",
+    "domain": "tail-ichthyology",
+    "premise": "本条考察长尾学术记录。已知 ichthyology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Morvath」命名的 ichthyology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "6",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Morvath",
+      "field": "ichthyology",
+      "recorded_year": 1985,
+      "gold": 6,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0096",
+    "family": "TK",
+    "domain": "tail-hydrology",
+    "premise": "本条考察长尾学术记录。已知 hydrology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Bergstrand」命名的 hydrology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "12",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Bergstrand",
+      "field": "hydrology",
+      "recorded_year": 1974,
+      "gold": 12,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0097",
+    "family": "TK",
+    "domain": "tail-optics",
+    "premise": "本条考察长尾学术记录。已知 optics 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Jablonowski」命名的 optics 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "17",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Jablonowski",
+      "field": "optics",
+      "recorded_year": 1971,
+      "gold": 17,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0098",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Taphonomy》 1994 年第 9 期刊载了一篇由 3 位作者署名的综述文章，主题为「遥相关指数的重构误差」。文章全文共 22 页，含 3 幅图表与 33 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 33 条参考文献中，专门研究「遥相关指数的重构误差」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 22,
+      "n_figs": 3,
+      "n_refs": 33,
+      "author": "Vesna Everleigh",
+      "journal": "《Advances in Taphonomy》",
+      "year": 1994
+    }
+  },
+  {
+    "item_id": "MC-424242-0099",
+    "family": "TK",
+    "domain": "tail-cryology",
+    "premise": "本条考察长尾学术记录。已知 cryology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Tsvetkov」命名的 cryology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "16",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Tsvetkov",
+      "field": "cryology",
+      "recorded_year": 1975,
+      "gold": 16,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0100",
+    "family": "TK",
+    "domain": "tail-mycology",
+    "premise": "本条考察长尾学术记录。已知 mycology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Cavallaro」命名的 mycology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "6",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Cavallaro",
+      "field": "mycology",
+      "recorded_year": 1981,
+      "gold": 6,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0101",
+    "family": "TK",
+    "domain": "tail-biogeography",
+    "premise": "本条考察长尾学术记录。已知 biogeography 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Rasmussen」命名的 biogeography 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "15",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Rasmussen",
+      "field": "biogeography",
+      "recorded_year": 1968,
+      "gold": 15,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0102",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Journal of Ombrotrophy》 1970 年第 10 期刊载了一篇由 5 位作者署名的综述文章，主题为「扰动实验的生态效度」。文章全文共 29 页，含 10 幅图表与 35 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 35 条参考文献中，专门研究「扰动实验的生态效度」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 29,
+      "n_figs": 10,
+      "n_refs": 35,
+      "author": "Zdenka Marchetti",
+      "journal": "《Journal of Ombrotrophy》",
+      "year": 1970
+    }
+  },
+  {
+    "item_id": "MC-424242-0103",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Nerys Harrowgate 等人于 1980 年在 《Agnotology Annals International》 发表了一篇关于「双盲设计的实施成本」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 8 名被试，全部批次共 24 名被试。研究以 p < 0.23 作为显著性阈值，并报告了 3 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "24",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 24,
+      "n_batches": 3,
+      "per_batch": 8,
+      "author": "Nerys Harrowgate",
+      "journal": "《Agnotology Annals International》",
+      "year": 1980
+    }
+  },
+  {
+    "item_id": "MC-424242-0104",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Sunniva Quintero 等人（1986）在 《Mnemotaxonomy Review International》 报告了一项关于「遥相关指数的重构误差」的分类研究。研究将全部 300 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 28%，第二类 28%，第三类 32%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 88,
+      "total": 300,
+      "fracs": [
+        28,
+        28,
+        32
+      ],
+      "author": "Sunniva Quintero",
+      "journal": "《Mnemotaxonomy Review International》",
+      "year": 1986
+    }
+  },
+  {
+    "item_id": "MC-424242-0105",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Dagny Oyelaran 等人于 1978 年在 《Journal of Ichthyophony》 发表了一篇关于「小样本条件下的判别效度」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 10 名被试，全部批次共 30 名被试。研究以 p < 0.11 作为显著性阈值，并报告了 3 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "30",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 30,
+      "n_batches": 3,
+      "per_batch": 10,
+      "author": "Dagny Oyelaran",
+      "journal": "《Journal of Ichthyophony》",
+      "year": 1978
+    }
+  },
+  {
+    "item_id": "MC-424242-0106",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Bence Ivorsen 等人（1988）在 《Advances in Hyaline》 报告了一项关于「扰动实验的生态效度」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 32%，第二类 32%，第三类 21%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 85,
+      "total": 150,
+      "fracs": [
+        32,
+        32,
+        21
+      ],
+      "author": "Bence Ivorsen",
+      "journal": "《Advances in Hyaline》",
+      "year": 1988
+    }
+  },
+  {
+    "item_id": "MC-424242-0107",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Jolanta Quintero 等人于 1980 年在 《The Geosemiotics Chronicle》 发表了一篇关于「双盲设计的实施成本」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 24 名被试，全部批次共 96 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "96",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 96,
+      "n_batches": 4,
+      "per_batch": 24,
+      "author": "Jolanta Quintero",
+      "journal": "《The Geosemiotics Chronicle》",
+      "year": 1980
+    }
+  },
+  {
+    "item_id": "MC-424242-0108",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Lubos Marchetti 等人于 1981 年在 《The Mnemotaxonomy Transactions》 发表了一篇关于「编码者间信度的衰减曲线」的研究。该研究采用多批次抽样设计：样本被平均分为 6 个批次，每个批次包含 6 名被试，全部批次共 36 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 6 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "36",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 36,
+      "n_batches": 6,
+      "per_batch": 6,
+      "author": "Lubos Marchetti",
+      "journal": "《The Mnemotaxonomy Transactions》",
+      "year": 1981
+    }
+  },
+  {
+    "item_id": "MC-424242-0109",
+    "family": "TK",
+    "domain": "tail-biogeography",
+    "premise": "本条考察长尾学术记录。已知 biogeography 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Rasmussen」命名的 biogeography 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "16",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Rasmussen",
+      "field": "biogeography",
+      "recorded_year": 1968,
+      "gold": 16,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0110",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Aurelio Sarrafian 等人（1985）在 《Advances in Rheocryptic》 报告了一项关于「编码者间信度的衰减曲线」的分类研究。研究将全部 300 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 28%，第二类 28%，第三类 34%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 90,
+      "total": 300,
+      "fracs": [
+        28,
+        28,
+        34
+      ],
+      "author": "Aurelio Sarrafian",
+      "journal": "《Advances in Rheocryptic》",
+      "year": 1985
+    }
+  },
+  {
+    "item_id": "MC-424242-0111",
+    "family": "TK",
+    "domain": "tail-acoustics",
+    "premise": "本条考察长尾学术记录。已知 acoustics 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Ostrowski」命名的 acoustics 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "10",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Ostrowski",
+      "field": "acoustics",
+      "recorded_year": 1973,
+      "gold": 10,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0112",
+    "family": "TK",
+    "domain": "tail-glaciology",
+    "premise": "本条考察长尾学术记录。已知 glaciology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Halvorsen」命名的 glaciology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "13",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Halvorsen",
+      "field": "glaciology",
+      "recorded_year": 1977,
+      "gold": 13,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0113",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Mnemotaxonomy Quarterly International》 1980 年第 11 期刊载了一篇由 3 位作者署名的综述文章，主题为「跨模态一致性检验的重测信度」。文章全文共 35 页，含 11 幅图表与 75 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 75 条参考文献中，专门研究「跨模态一致性检验的重测信度」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 35,
+      "n_figs": 11,
+      "n_refs": 75,
+      "author": "Sunniva Harrowgate",
+      "journal": "《Mnemotaxonomy Quarterly International》",
+      "year": 1980
+    }
+  },
+  {
+    "item_id": "MC-424242-0114",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Csilla Thibodeaux 等人（1995）在 《Journal of Cryotopology》 报告了一项关于「跨模态一致性检验的重测信度」的分类研究。研究将全部 120 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 35%，第二类 35%，第三类 15%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 85,
+      "total": 120,
+      "fracs": [
+        35,
+        35,
+        15
+      ],
+      "author": "Csilla Thibodeaux",
+      "journal": "《Journal of Cryotopology》",
+      "year": 1995
+    }
+  },
+  {
+    "item_id": "MC-424242-0115",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Goran Blackwood 等人（1986）在 《Journal of Querimonious》 报告了一项关于「跨模态一致性检验的重测信度」的分类研究。研究将全部 300 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 28%，第二类 32%，第三类 28%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 88,
+      "total": 300,
+      "fracs": [
+        28,
+        32,
+        28
+      ],
+      "author": "Goran Blackwood",
+      "journal": "《Journal of Querimonious》",
+      "year": 1986
+    }
+  },
+  {
+    "item_id": "MC-424242-0116",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Wojciech Oyelaran 等人于 1982 年在 《Umbelliferous Chronicle International》 发表了一篇关于「情境依赖的记忆再巩固」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 24 名被试，全部批次共 72 名被试。研究以 p < 0.23 作为显著性阈值，并报告了 3 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "72",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 72,
+      "n_batches": 3,
+      "per_batch": 24,
+      "author": "Wojciech Oyelaran",
+      "journal": "《Umbelliferous Chronicle International》",
+      "year": 1982
+    }
+  },
+  {
+    "item_id": "MC-424242-0117",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Xanthe Sarrafian 等人于 1991 年在 《Taphonomy Letters International》 发表了一篇关于「分布式注释者的一致性阈值」的研究。该研究采用多批次抽样设计：样本被平均分为 2 个批次，每个批次包含 36 名被试，全部批次共 72 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 2 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "72",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 72,
+      "n_batches": 2,
+      "per_batch": 36,
+      "author": "Xanthe Sarrafian",
+      "journal": "《Taphonomy Letters International》",
+      "year": 1991
+    }
+  },
+  {
+    "item_id": "MC-424242-0118",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Bence Cranmore 等人（1985）在 《Advances in Hyaline》 报告了一项关于「情境依赖的记忆再巩固」的分类研究。研究将全部 200 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 30%，第二类 35%，第三类 20%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 85,
+      "total": 200,
+      "fracs": [
+        30,
+        35,
+        20
+      ],
+      "author": "Bence Cranmore",
+      "journal": "《Advances in Hyaline》",
+      "year": 1985
+    }
+  },
+  {
+    "item_id": "MC-424242-0119",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Nerys Nakagawa 等人于 1969 年在 《Advances in Querimonious》 发表了一篇关于「分布式注释者的一致性阈值」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 30 名被试，全部批次共 120 名被试。研究以 p < 0.11 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "120",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 120,
+      "n_batches": 4,
+      "per_batch": 30,
+      "author": "Nerys Nakagawa",
+      "journal": "《Advances in Querimonious》",
+      "year": 1969
+    }
+  },
+  {
+    "item_id": "MC-424242-0120",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Yaroslav Dunmore 等人（1976）在 《Journal of Rheocryptic》 报告了一项关于「分布式注释者的一致性阈值」的分类研究。研究将全部 240 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 32%，第二类 28%，第三类 28%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 88,
+      "total": 240,
+      "fracs": [
+        32,
+        28,
+        28
+      ],
+      "author": "Yaroslav Dunmore",
+      "journal": "《Journal of Rheocryptic》",
+      "year": 1976
+    }
+  },
+  {
+    "item_id": "MC-424242-0121",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Funambulatory》 1989 年第 4 期刊载了一篇由 6 位作者署名的综述文章，主题为「双盲设计的实施成本」。文章全文共 22 页，含 5 幅图表与 44 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 44 条参考文献中，专门研究「双盲设计的实施成本」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 22,
+      "n_figs": 5,
+      "n_refs": 44,
+      "author": "Ulrike Cranmore",
+      "journal": "《Advances in Funambulatory》",
+      "year": 1989
+    }
+  },
+  {
+    "item_id": "MC-424242-0122",
+    "family": "TK",
+    "domain": "tail-ethology",
+    "premise": "本条考察长尾学术记录。已知 ethology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Kettilsson」命名的 ethology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "9",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Kettilsson",
+      "field": "ethology",
+      "recorded_year": 1990,
+      "gold": 9,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0123",
+    "family": "TK",
+    "domain": "tail-ichthyology",
+    "premise": "本条考察长尾学术记录。已知 ichthyology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Morvath」命名的 ichthyology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "5",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Morvath",
+      "field": "ichthyology",
+      "recorded_year": 1985,
+      "gold": 5,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0124",
+    "family": "TK",
+    "domain": "tail-limnology",
+    "premise": "本条考察长尾学术记录。已知 limnology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Dreissen」命名的 limnology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "14",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Dreissen",
+      "field": "limnology",
+      "recorded_year": 1969,
+      "gold": 14,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0125",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Fenna Quintero 等人于 1985 年在 《Advances in Ethnocalcimetry》 发表了一篇关于「谱系树推断的稳健性」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 6 名被试，全部批次共 24 名被试。研究以 p < 0.11 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "24",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 24,
+      "n_batches": 4,
+      "per_batch": 6,
+      "author": "Fenna Quintero",
+      "journal": "《Advances in Ethnocalcimetry》",
+      "year": 1985
+    }
+  },
+  {
+    "item_id": "MC-424242-0126",
+    "family": "TK",
+    "domain": "tail-ethology",
+    "premise": "本条考察长尾学术记录。已知 ethology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Kettilsson」命名的 ethology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "7",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Kettilsson",
+      "field": "ethology",
+      "recorded_year": 1990,
+      "gold": 7,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0127",
+    "family": "TK",
+    "domain": "tail-sedimentology",
+    "premise": "本条考察长尾学术记录。已知 sedimentology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Novakovic」命名的 sedimentology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "13",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Novakovic",
+      "field": "sedimentology",
+      "recorded_year": 1979,
+      "gold": 13,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0128",
+    "family": "TK",
+    "domain": "tail-sedimentology",
+    "premise": "本条考察长尾学术记录。已知 sedimentology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Novakovic」命名的 sedimentology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "13",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Novakovic",
+      "field": "sedimentology",
+      "recorded_year": 1979,
+      "gold": 13,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0129",
+    "family": "TK",
+    "domain": "tail-ichthyology",
+    "premise": "本条考察长尾学术记录。已知 ichthyology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Morvath」命名的 ichthyology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "5",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Morvath",
+      "field": "ichthyology",
+      "recorded_year": 1985,
+      "gold": 5,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0130",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Palimpsestic Transactions International》 1991 年第 12 期刊载了一篇由 4 位作者署名的综述文章，主题为「分布式注释者的一致性阈值」。文章全文共 31 页，含 7 幅图表与 29 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 29 条参考文献中，专门研究「分布式注释者的一致性阈值」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 31,
+      "n_figs": 7,
+      "n_refs": 29,
+      "author": "Lubos Fairweather",
+      "journal": "《Palimpsestic Transactions International》",
+      "year": 1991
+    }
+  },
+  {
+    "item_id": "MC-424242-0131",
+    "family": "TK",
+    "domain": "tail-limnology",
+    "premise": "本条考察长尾学术记录。已知 limnology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Dreissen」命名的 limnology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "13",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Dreissen",
+      "field": "limnology",
+      "recorded_year": 1969,
+      "gold": 13,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0132",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Tomasz Thibodeaux 等人于 1993 年在 《Kinetosemantics Letters International》 发表了一篇关于「扰动实验的生态效度」的研究。该研究采用多批次抽样设计：样本被平均分为 2 个批次，每个批次包含 24 名被试，全部批次共 48 名被试。研究以 p < 0.11 作为显著性阈值，并报告了 2 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "48",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 48,
+      "n_batches": 2,
+      "per_batch": 24,
+      "author": "Tomasz Thibodeaux",
+      "journal": "《Kinetosemantics Letters International》",
+      "year": 1993
+    }
+  },
+  {
+    "item_id": "MC-424242-0133",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Journal of Taphonomy》 1969 年第 7 期刊载了一篇由 4 位作者署名的综述文章，主题为「情境依赖的记忆再巩固」。文章全文共 42 页，含 11 幅图表与 29 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 29 条参考文献中，专门研究「情境依赖的记忆再巩固」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 42,
+      "n_figs": 11,
+      "n_refs": 29,
+      "author": "Halina Pettersen",
+      "journal": "《Journal of Taphonomy》",
+      "year": 1969
+    }
+  },
+  {
+    "item_id": "MC-424242-0134",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Tomasz Pettersen 等人于 1974 年在 《Palimpsestic Quarterly International》 发表了一篇关于「小样本条件下的判别效度」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 15 名被试，全部批次共 60 名被试。研究以 p < 0.19 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "60",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 60,
+      "n_batches": 4,
+      "per_batch": 15,
+      "author": "Tomasz Pettersen",
+      "journal": "《Palimpsestic Quarterly International》",
+      "year": 1974
+    }
+  },
+  {
+    "item_id": "MC-424242-0135",
+    "family": "TK",
+    "domain": "tail-glaciology",
+    "premise": "本条考察长尾学术记录。已知 glaciology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Halvorsen」命名的 glaciology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "13",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Halvorsen",
+      "field": "glaciology",
+      "recorded_year": 1977,
+      "gold": 13,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0136",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Quirina Thibodeaux 等人于 1984 年在 《Advances in Ichthyophony》 发表了一篇关于「跨模态一致性检验的重测信度」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 16 名被试，全部批次共 48 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 3 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "48",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 48,
+      "n_batches": 3,
+      "per_batch": 16,
+      "author": "Quirina Thibodeaux",
+      "journal": "《Advances in Ichthyophony》",
+      "year": 1984
+    }
+  },
+  {
+    "item_id": "MC-424242-0137",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Jolanta Pettersen 等人（1980）在 《The Limnochemistry Chronicle》 报告了一项关于「小样本条件下的判别效度」的分类研究。研究将全部 180 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 28%，第二类 32%，第三类 30%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 90,
+      "total": 180,
+      "fracs": [
+        28,
+        32,
+        30
+      ],
+      "author": "Jolanta Pettersen",
+      "journal": "《The Limnochemistry Chronicle》",
+      "year": 1980
+    }
+  },
+  {
+    "item_id": "MC-424242-0138",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Aurelio Rasmussen 等人（1986）在 《The Ethnocalcimetry Review》 报告了一项关于「小样本条件下的判别效度」的分类研究。研究将全部 120 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 28%，第二类 32%，第三类 28%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 88,
+      "total": 120,
+      "fracs": [
+        28,
+        32,
+        28
+      ],
+      "author": "Aurelio Rasmussen",
+      "journal": "《The Ethnocalcimetry Review》",
+      "year": 1986
+    }
+  },
+  {
+    "item_id": "MC-424242-0139",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Journal of Siderophony》 1970 年第 5 期刊载了一篇由 5 位作者署名的综述文章，主题为「遥相关指数的重构误差」。文章全文共 30 页，含 6 幅图表与 76 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 76 条参考文献中，专门研究「遥相关指数的重构误差」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 30,
+      "n_figs": 6,
+      "n_refs": 76,
+      "author": "Radoslav Kowalczyk",
+      "journal": "《Journal of Siderophony》",
+      "year": 1970
+    }
+  },
+  {
+    "item_id": "MC-424242-0140",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Piotr Lindqvist 等人（1982）在 《Ichthyophony Bulletin International》 报告了一项关于「分布式注释者的一致性阈值」的分类研究。研究将全部 200 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 30%，第二类 26%，第三类 32%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 88,
+      "total": 200,
+      "fracs": [
+        30,
+        26,
+        32
+      ],
+      "author": "Piotr Lindqvist",
+      "journal": "《Ichthyophony Bulletin International》",
+      "year": 1982
+    }
+  },
+  {
+    "item_id": "MC-424242-0141",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Ivo Thibodeaux 等人于 1980 年在 《Limnochemistry Proceedings International》 发表了一篇关于「编码者间信度的衰减曲线」的研究。该研究采用多批次抽样设计：样本被平均分为 6 个批次，每个批次包含 20 名被试，全部批次共 120 名被试。研究以 p < 0.23 作为显著性阈值，并报告了 6 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "120",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 120,
+      "n_batches": 6,
+      "per_batch": 20,
+      "author": "Ivo Thibodeaux",
+      "journal": "《Limnochemistry Proceedings International》",
+      "year": 1980
+    }
+  },
+  {
+    "item_id": "MC-424242-0142",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Mnemotaxonomy Chronicle International》 1986 年第 8 期刊载了一篇由 3 位作者署名的综述文章，主题为「双盲设计的实施成本」。文章全文共 24 页，含 4 幅图表与 47 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 47 条参考文献中，专门研究「双盲设计的实施成本」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 24,
+      "n_figs": 4,
+      "n_refs": 47,
+      "author": "Wojciech Rasmussen",
+      "journal": "《Mnemotaxonomy Chronicle International》",
+      "year": 1986
+    }
+  },
+  {
+    "item_id": "MC-424242-0143",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Journal of Ombrotrophy》 1993 年第 11 期刊载了一篇由 4 位作者署名的综述文章，主题为「编码者间信度的衰减曲线」。文章全文共 26 页，含 5 幅图表与 92 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 92 条参考文献中，专门研究「编码者间信度的衰减曲线」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 26,
+      "n_figs": 5,
+      "n_refs": 92,
+      "author": "Ulrike Grimsdottir",
+      "journal": "《Journal of Ombrotrophy》",
+      "year": 1993
+    }
+  },
+  {
+    "item_id": "MC-424242-0144",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Ondrej Everleigh 等人于 1978 年在 《Nychthemeral Studies International》 发表了一篇关于「双盲设计的实施成本」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 12 名被试，全部批次共 48 名被试。研究以 p < 0.13 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "48",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 48,
+      "n_batches": 4,
+      "per_batch": 12,
+      "author": "Ondrej Everleigh",
+      "journal": "《Nychthemeral Studies International》",
+      "year": 1978
+    }
+  },
+  {
+    "item_id": "MC-424242-0145",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Fenna Blackwood 等人（1978）在 《Mnemotaxonomy Digest International》 报告了一项关于「扰动实验的生态效度」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 32%，第二类 26%，第三类 30%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 88,
+      "total": 150,
+      "fracs": [
+        32,
+        26,
+        30
+      ],
+      "author": "Fenna Blackwood",
+      "journal": "《Mnemotaxonomy Digest International》",
+      "year": 1978
+    }
+  },
+  {
+    "item_id": "MC-424242-0146",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Cryotopology》 1982 年第 8 期刊载了一篇由 5 位作者署名的综述文章，主题为「小样本条件下的判别效度」。文章全文共 28 页，含 5 幅图表与 54 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 54 条参考文献中，专门研究「小样本条件下的判别效度」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 28,
+      "n_figs": 5,
+      "n_refs": 54,
+      "author": "Ivo Kowalczyk",
+      "journal": "《Advances in Cryotopology》",
+      "year": 1982
+    }
+  },
+  {
+    "item_id": "MC-424242-0147",
+    "family": "TK",
+    "domain": "tail-optics",
+    "premise": "本条考察长尾学术记录。已知 optics 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Jablonowski」命名的 optics 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "17",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Jablonowski",
+      "field": "optics",
+      "recorded_year": 1971,
+      "gold": 17,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0148",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Vesna Abernathy 等人于 1976 年在 《Advances in Umbelliferous》 发表了一篇关于「扰动实验的生态效度」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 8 名被试，全部批次共 24 名被试。研究以 p < 0.13 作为显著性阈值，并报告了 3 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "24",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 24,
+      "n_batches": 3,
+      "per_batch": 8,
+      "author": "Vesna Abernathy",
+      "journal": "《Advances in Umbelliferous》",
+      "year": 1976
+    }
+  },
+  {
+    "item_id": "MC-424242-0149",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Umbelliferous》 1989 年第 11 期刊载了一篇由 6 位作者署名的综述文章，主题为「跨模态一致性检验的重测信度」。文章全文共 29 页，含 6 幅图表与 73 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 73 条参考文献中，专门研究「跨模态一致性检验的重测信度」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 29,
+      "n_figs": 6,
+      "n_refs": 73,
+      "author": "Piotr Cranmore",
+      "journal": "《Advances in Umbelliferous》",
+      "year": 1989
+    }
+  },
+  {
+    "item_id": "MC-424242-0150",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Elias Marchetti 等人（1977）在 《The Mnemotaxonomy Transactions》 报告了一项关于「遥相关指数的重构误差」的分类研究。研究将全部 200 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 40%，第二类 35%，第三类 15%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 90,
+      "total": 200,
+      "fracs": [
+        40,
+        35,
+        15
+      ],
+      "author": "Elias Marchetti",
+      "journal": "《The Mnemotaxonomy Transactions》",
+      "year": 1977
+    }
+  },
+  {
+    "item_id": "MC-424242-0151",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Hyaline Quarterly International》 1978 年第 3 期刊载了一篇由 5 位作者署名的综述文章，主题为「扰动实验的生态效度」。文章全文共 41 页，含 4 幅图表与 81 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 81 条参考文献中，专门研究「扰动实验的生态效度」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 41,
+      "n_figs": 4,
+      "n_refs": 81,
+      "author": "Dagny Cranmore",
+      "journal": "《Hyaline Quarterly International》",
+      "year": 1978
+    }
+  },
+  {
+    "item_id": "MC-424242-0152",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Marisol Everleigh 等人（1969）在 《Advances in Querimonious》 报告了一项关于「分布式注释者的一致性阈值」的分类研究。研究将全部 180 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 35%，第二类 26%，第三类 21%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 82,
+      "total": 180,
+      "fracs": [
+        35,
+        26,
+        21
+      ],
+      "author": "Marisol Everleigh",
+      "journal": "《Advances in Querimonious》",
+      "year": 1969
+    }
+  },
+  {
+    "item_id": "MC-424242-0153",
+    "family": "TK",
+    "domain": "tail-ethology",
+    "premise": "本条考察长尾学术记录。已知 ethology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Kettilsson」命名的 ethology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "9",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Kettilsson",
+      "field": "ethology",
+      "recorded_year": 1990,
+      "gold": 9,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0154",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Journal of Siderophony》 1994 年第 11 期刊载了一篇由 6 位作者署名的综述文章，主题为「遥相关指数的重构误差」。文章全文共 26 页，含 11 幅图表与 83 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 83 条参考文献中，专门研究「遥相关指数的重构误差」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 26,
+      "n_figs": 11,
+      "n_refs": 83,
+      "author": "Ivo Abernathy",
+      "journal": "《Journal of Siderophony》",
+      "year": 1994
+    }
+  },
+  {
+    "item_id": "MC-424242-0155",
+    "family": "TK",
+    "domain": "tail-phenology",
+    "premise": "本条考察长尾学术记录。已知 phenology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Pihlajamaa」命名的 phenology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "3",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Pihlajamaa",
+      "field": "phenology",
+      "recorded_year": 1992,
+      "gold": 3,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0156",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Goran Rasmussen 等人于 1984 年在 《Advances in Limnochemistry》 发表了一篇关于「情境依赖的记忆再巩固」的研究。该研究采用多批次抽样设计：样本被平均分为 2 个批次，每个批次包含 60 名被试，全部批次共 120 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 2 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "120",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 120,
+      "n_batches": 2,
+      "per_batch": 60,
+      "author": "Goran Rasmussen",
+      "journal": "《Advances in Limnochemistry》",
+      "year": 1984
+    }
+  },
+  {
+    "item_id": "MC-424242-0157",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《The Dendroacoustics Proceedings》 1974 年第 4 期刊载了一篇由 6 位作者署名的综述文章，主题为「扰动实验的生态效度」。文章全文共 32 页，含 6 幅图表与 36 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 36 条参考文献中，专门研究「扰动实验的生态效度」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 32,
+      "n_figs": 6,
+      "n_refs": 36,
+      "author": "Ulrike Everleigh",
+      "journal": "《The Dendroacoustics Proceedings》",
+      "year": 1974
+    }
+  },
+  {
+    "item_id": "MC-424242-0158",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Nychthemeral Review International》 1983 年第 4 期刊载了一篇由 5 位作者署名的综述文章，主题为「谱系树推断的稳健性」。文章全文共 21 页，含 10 幅图表与 84 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 84 条参考文献中，专门研究「谱系树推断的稳健性」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 21,
+      "n_figs": 10,
+      "n_refs": 84,
+      "author": "Vesna Ivorsen",
+      "journal": "《Nychthemeral Review International》",
+      "year": 1983
+    }
+  },
+  {
+    "item_id": "MC-424242-0159",
+    "family": "TK",
+    "domain": "tail-pedology",
+    "premise": "本条考察长尾学术记录。已知 pedology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Falkenrath」命名的 pedology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "9",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Falkenrath",
+      "field": "pedology",
+      "recorded_year": 1988,
+      "gold": 9,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0160",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Jolanta Dunmore 等人（1994）在 《Siderophony Studies International》 报告了一项关于「编码者间信度的衰减曲线」的分类研究。研究将全部 200 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 30%，第二类 30%，第三类 22%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 82,
+      "total": 200,
+      "fracs": [
+        30,
+        30,
+        22
+      ],
+      "author": "Jolanta Dunmore",
+      "journal": "《Siderophony Studies International》",
+      "year": 1994
+    }
+  },
+  {
+    "item_id": "MC-424242-0161",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Sunniva Grimsdottir 等人（1987）在 《Advances in Querimonious》 报告了一项关于「自评偏差的纵向稳定性」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 35%，第二类 26%，第三类 24%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 85,
+      "total": 150,
+      "fracs": [
+        35,
+        26,
+        24
+      ],
+      "author": "Sunniva Grimsdottir",
+      "journal": "《Advances in Querimonious》",
+      "year": 1987
+    }
+  },
+  {
+    "item_id": "MC-424242-0162",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Nerys Blackwood 等人于 1985 年在 《Journal of Ichthyophony》 发表了一篇关于「小样本条件下的判别效度」的研究。该研究采用多批次抽样设计：样本被平均分为 6 个批次，每个批次包含 5 名被试，全部批次共 30 名被试。研究以 p < 0.19 作为显著性阈值，并报告了 6 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "30",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 30,
+      "n_batches": 6,
+      "per_batch": 5,
+      "author": "Nerys Blackwood",
+      "journal": "《Journal of Ichthyophony》",
+      "year": 1985
+    }
+  },
+  {
+    "item_id": "MC-424242-0163",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Ombrotrophy Letters International》 1986 年第 4 期刊载了一篇由 4 位作者署名的综述文章，主题为「编码者间信度的衰减曲线」。文章全文共 16 页，含 10 幅图表与 30 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 30 条参考文献中，专门研究「编码者间信度的衰减曲线」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 16,
+      "n_figs": 10,
+      "n_refs": 30,
+      "author": "Jolanta Fairweather",
+      "journal": "《Ombrotrophy Letters International》",
+      "year": 1986
+    }
+  },
+  {
+    "item_id": "MC-424242-0164",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Jolanta Sarrafian 等人于 1987 年在 《Funambulatory Annals International》 发表了一篇关于「分布式注释者的一致性阈值」的研究。该研究采用多批次抽样设计：样本被平均分为 2 个批次，每个批次包含 48 名被试，全部批次共 96 名被试。研究以 p < 0.11 作为显著性阈值，并报告了 2 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "96",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 96,
+      "n_batches": 2,
+      "per_batch": 48,
+      "author": "Jolanta Sarrafian",
+      "journal": "《Funambulatory Annals International》",
+      "year": 1987
+    }
+  },
+  {
+    "item_id": "MC-424242-0165",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Lubos Pettersen 等人（1975）在 《Agnotology Digest International》 报告了一项关于「编码者间信度的衰减曲线」的分类研究。研究将全部 240 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 32%，第二类 28%，第三类 25%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 85,
+      "total": 240,
+      "fracs": [
+        32,
+        28,
+        25
+      ],
+      "author": "Lubos Pettersen",
+      "journal": "《Agnotology Digest International》",
+      "year": 1975
+    }
+  },
+  {
+    "item_id": "MC-424242-0166",
+    "family": "TK",
+    "domain": "tail-palynology",
+    "premise": "本条考察长尾学术记录。已知 palynology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Lindgren」命名的 palynology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "16",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Lindgren",
+      "field": "palynology",
+      "recorded_year": 1966,
+      "gold": 16,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0167",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Radoslav Fairweather 等人于 1987 年在 《Advances in Cryotopology》 发表了一篇关于「遥相关指数的重构误差」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 24 名被试，全部批次共 72 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 3 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "72",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 72,
+      "n_batches": 3,
+      "per_batch": 24,
+      "author": "Radoslav Fairweather",
+      "journal": "《Advances in Cryotopology》",
+      "year": 1987
+    }
+  },
+  {
+    "item_id": "MC-424242-0168",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Lubos Oyelaran 等人（1983）在 《Journal of Palimpsestic》 报告了一项关于「谱系树推断的稳健性」的分类研究。研究将全部 240 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 38%，第二类 32%，第三类 18%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 88,
+      "total": 240,
+      "fracs": [
+        38,
+        32,
+        18
+      ],
+      "author": "Lubos Oyelaran",
+      "journal": "《Journal of Palimpsestic》",
+      "year": 1983
+    }
+  },
+  {
+    "item_id": "MC-424242-0169",
+    "family": "TK",
+    "domain": "tail-pedology",
+    "premise": "本条考察长尾学术记录。已知 pedology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Falkenrath」命名的 pedology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "9",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Falkenrath",
+      "field": "pedology",
+      "recorded_year": 1988,
+      "gold": 9,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0170",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Piotr Nakagawa 等人（1977）在 《The Ombrotrophy Digest》 报告了一项关于「长尾实体的语义漂移」的分类研究。研究将全部 180 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 32%，第二类 32%，第三类 21%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 85,
+      "total": 180,
+      "fracs": [
+        32,
+        32,
+        21
+      ],
+      "author": "Piotr Nakagawa",
+      "journal": "《The Ombrotrophy Digest》",
+      "year": 1977
+    }
+  },
+  {
+    "item_id": "MC-424242-0171",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Xanthe Everleigh 等人（1989）在 《Journal of Umbelliferous》 报告了一项关于「分布式注释者的一致性阈值」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 28%，第二类 28%，第三类 37%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 93,
+      "total": 150,
+      "fracs": [
+        28,
+        28,
+        37
+      ],
+      "author": "Xanthe Everleigh",
+      "journal": "《Journal of Umbelliferous》",
+      "year": 1989
+    }
+  },
+  {
+    "item_id": "MC-424242-0172",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Marisol Harrowgate 等人于 1969 年在 《Advances in Mnemotaxonomy》 发表了一篇关于「扰动实验的生态效度」的研究。该研究采用多批次抽样设计：样本被平均分为 6 个批次，每个批次包含 16 名被试，全部批次共 96 名被试。研究以 p < 0.13 作为显著性阈值，并报告了 6 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "96",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 96,
+      "n_batches": 6,
+      "per_batch": 16,
+      "author": "Marisol Harrowgate",
+      "journal": "《Advances in Mnemotaxonomy》",
+      "year": 1969
+    }
+  },
+  {
+    "item_id": "MC-424242-0173",
+    "family": "TK",
+    "domain": "tail-palynology",
+    "premise": "本条考察长尾学术记录。已知 palynology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Lindgren」命名的 palynology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "14",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Lindgren",
+      "field": "palynology",
+      "recorded_year": 1966,
+      "gold": 14,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0174",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《The Rheocryptic Proceedings》 1969 年第 4 期刊载了一篇由 3 位作者署名的综述文章，主题为「扰动实验的生态效度」。文章全文共 18 页，含 9 幅图表与 30 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 30 条参考文献中，专门研究「扰动实验的生态效度」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 18,
+      "n_figs": 9,
+      "n_refs": 30,
+      "author": "Radoslav Dunmore",
+      "journal": "《The Rheocryptic Proceedings》",
+      "year": 1969
+    }
+  },
+  {
+    "item_id": "MC-424242-0175",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Piotr Rasmussen 等人于 1991 年在 《The Taphonomy Bulletin》 发表了一篇关于「遥相关指数的重构误差」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 15 名被试，全部批次共 60 名被试。研究以 p < 0.11 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "60",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 60,
+      "n_batches": 4,
+      "per_batch": 15,
+      "author": "Piotr Rasmussen",
+      "journal": "《The Taphonomy Bulletin》",
+      "year": 1991
+    }
+  },
+  {
+    "item_id": "MC-424242-0176",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Ivo Abernathy 等人于 1971 年在 《Journal of Ombrotrophy》 发表了一篇关于「扰动实验的生态效度」的研究。该研究采用多批次抽样设计：样本被平均分为 6 个批次，每个批次包含 16 名被试，全部批次共 96 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 6 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "96",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 96,
+      "n_batches": 6,
+      "per_batch": 16,
+      "author": "Ivo Abernathy",
+      "journal": "《Journal of Ombrotrophy》",
+      "year": 1971
+    }
+  },
+  {
+    "item_id": "MC-424242-0177",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Kestrel Abernathy 等人（1974）在 《Journal of Limnochemistry》 报告了一项关于「小样本条件下的判别效度」的分类研究。研究将全部 300 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 38%，第二类 28%，第三类 27%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 93,
+      "total": 300,
+      "fracs": [
+        38,
+        28,
+        27
+      ],
+      "author": "Kestrel Abernathy",
+      "journal": "《Journal of Limnochemistry》",
+      "year": 1974
+    }
+  },
+  {
+    "item_id": "MC-424242-0178",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《The Rheocryptic Letters》 1993 年第 4 期刊载了一篇由 5 位作者署名的综述文章，主题为「情境依赖的记忆再巩固」。文章全文共 17 页，含 11 幅图表与 28 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 28 条参考文献中，专门研究「情境依赖的记忆再巩固」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 17,
+      "n_figs": 11,
+      "n_refs": 28,
+      "author": "Jolanta Ivorsen",
+      "journal": "《The Rheocryptic Letters》",
+      "year": 1993
+    }
+  },
+  {
+    "item_id": "MC-424242-0179",
+    "family": "TK",
+    "domain": "tail-phenology",
+    "premise": "本条考察长尾学术记录。已知 phenology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Pihlajamaa」命名的 phenology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "3",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Pihlajamaa",
+      "field": "phenology",
+      "recorded_year": 1992,
+      "gold": 3,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0180",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Sunniva Pettersen 等人（1972）在 《Journal of Mnemotaxonomy》 报告了一项关于「谱系树推断的稳健性」的分类研究。研究将全部 200 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 35%，第二类 30%，第三类 20%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 85,
+      "total": 200,
+      "fracs": [
+        35,
+        30,
+        20
+      ],
+      "author": "Sunniva Pettersen",
+      "journal": "《Journal of Mnemotaxonomy》",
+      "year": 1972
+    }
+  },
+  {
+    "item_id": "MC-424242-0181",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Ondrej Rasmussen 等人于 1981 年在 《Agnotology Quarterly International》 发表了一篇关于「分布式注释者的一致性阈值」的研究。该研究采用多批次抽样设计：样本被平均分为 6 个批次，每个批次包含 5 名被试，全部批次共 30 名被试。研究以 p < 0.19 作为显著性阈值，并报告了 6 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "30",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 30,
+      "n_batches": 6,
+      "per_batch": 5,
+      "author": "Ondrej Rasmussen",
+      "journal": "《Agnotology Quarterly International》",
+      "year": 1981
+    }
+  },
+  {
+    "item_id": "MC-424242-0182",
+    "family": "TK",
+    "domain": "tail-optics",
+    "premise": "本条考察长尾学术记录。已知 optics 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Jablonowski」命名的 optics 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "19",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Jablonowski",
+      "field": "optics",
+      "recorded_year": 1971,
+      "gold": 19,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0183",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Ulrike Pettersen 等人（1989）在 《Journal of Querimonious》 报告了一项关于「分布式注释者的一致性阈值」的分类研究。研究将全部 240 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 30%，第二类 28%，第三类 24%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 82,
+      "total": 240,
+      "fracs": [
+        30,
+        28,
+        24
+      ],
+      "author": "Ulrike Pettersen",
+      "journal": "《Journal of Querimonious》",
+      "year": 1989
+    }
+  },
+  {
+    "item_id": "MC-424242-0184",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Tomasz Blackwood 等人（1980）在 《Journal of Querimonious》 报告了一项关于「小样本条件下的判别效度」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 30%，第二类 35%，第三类 23%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 88,
+      "total": 150,
+      "fracs": [
+        30,
+        35,
+        23
+      ],
+      "author": "Tomasz Blackwood",
+      "journal": "《Journal of Querimonious》",
+      "year": 1980
+    }
+  },
+  {
+    "item_id": "MC-424242-0185",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Kestrel Thibodeaux 等人（1974）在 《Funambulatory Chronicle International》 报告了一项关于「跨模态一致性检验的重测信度」的分类研究。研究将全部 240 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 40%，第二类 30%，第三类 20%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 90,
+      "total": 240,
+      "fracs": [
+        40,
+        30,
+        20
+      ],
+      "author": "Kestrel Thibodeaux",
+      "journal": "《Funambulatory Chronicle International》",
+      "year": 1974
+    }
+  },
+  {
+    "item_id": "MC-424242-0186",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Kinetosemantics》 1986 年第 1 期刊载了一篇由 4 位作者署名的综述文章，主题为「谱系树推断的稳健性」。文章全文共 28 页，含 7 幅图表与 63 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 63 条参考文献中，专门研究「谱系树推断的稳健性」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 28,
+      "n_figs": 7,
+      "n_refs": 63,
+      "author": "Lubos Abernathy",
+      "journal": "《Advances in Kinetosemantics》",
+      "year": 1986
+    }
+  },
+  {
+    "item_id": "MC-424242-0187",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Siderophony》 1983 年第 3 期刊载了一篇由 3 位作者署名的综述文章，主题为「扰动实验的生态效度」。文章全文共 18 页，含 7 幅图表与 89 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 89 条参考文献中，专门研究「扰动实验的生态效度」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 18,
+      "n_figs": 7,
+      "n_refs": 89,
+      "author": "Lubos Kowalczyk",
+      "journal": "《Advances in Siderophony》",
+      "year": 1983
+    }
+  },
+  {
+    "item_id": "MC-424242-0188",
+    "family": "TK",
+    "domain": "tail-ethology",
+    "premise": "本条考察长尾学术记录。已知 ethology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Kettilsson」命名的 ethology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "7",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Kettilsson",
+      "field": "ethology",
+      "recorded_year": 1990,
+      "gold": 7,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0189",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Csilla Ivorsen 等人（1982）在 《The Cryotopology Annals》 报告了一项关于「遥相关指数的重构误差」的分类研究。研究将全部 200 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 28%，第二类 35%，第三类 22%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 85,
+      "total": 200,
+      "fracs": [
+        28,
+        35,
+        22
+      ],
+      "author": "Csilla Ivorsen",
+      "journal": "《The Cryotopology Annals》",
+      "year": 1982
+    }
+  },
+  {
+    "item_id": "MC-424242-0190",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Yaroslav Everleigh 等人于 1973 年在 《Ombrotrophy Proceedings International》 发表了一篇关于「跨模态一致性检验的重测信度」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 12 名被试，全部批次共 48 名被试。研究以 p < 0.13 作为显著性阈值，并报告了 4 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "48",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 48,
+      "n_batches": 4,
+      "per_batch": 12,
+      "author": "Yaroslav Everleigh",
+      "journal": "《Ombrotrophy Proceedings International》",
+      "year": 1973
+    }
+  },
+  {
+    "item_id": "MC-424242-0191",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Hyaline》 1976 年第 2 期刊载了一篇由 3 位作者署名的综述文章，主题为「小样本条件下的判别效度」。文章全文共 24 页，含 7 幅图表与 67 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 67 条参考文献中，专门研究「小样本条件下的判别效度」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 24,
+      "n_figs": 7,
+      "n_refs": 67,
+      "author": "Sunniva Marchetti",
+      "journal": "《Advances in Hyaline》",
+      "year": 1976
+    }
+  },
+  {
+    "item_id": "MC-424242-0192",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《The Vernacularism Bulletin》 1982 年第 6 期刊载了一篇由 6 位作者署名的综述文章，主题为「分布式注释者的一致性阈值」。文章全文共 38 页，含 4 幅图表与 72 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 72 条参考文献中，专门研究「分布式注释者的一致性阈值」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 38,
+      "n_figs": 4,
+      "n_refs": 72,
+      "author": "Zdenka Harrowgate",
+      "journal": "《The Vernacularism Bulletin》",
+      "year": 1982
+    }
+  },
+  {
+    "item_id": "MC-424242-0193",
+    "family": "SI",
+    "domain": "premise-arithmetic",
+    "premise": "Sunniva Lindqvist 等人于 1978 年在 《Rheocryptic Letters International》 发表了一篇关于「谱系树推断的稳健性」的研究。该研究采用多批次抽样设计：样本被平均分为 2 个批次，每个批次包含 60 名被试，全部批次共 120 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 2 组独立的效应量估计。",
+    "question": "该研究总共纳入了多少名被试？（请只回答数字）",
+    "gold_answer": "120",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "n_samples": 120,
+      "n_batches": 2,
+      "per_batch": 60,
+      "author": "Sunniva Lindqvist",
+      "journal": "《Rheocryptic Letters International》",
+      "year": 1978
+    }
+  },
+  {
+    "item_id": "MC-424242-0194",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Journal of Nychthemeral》 1984 年第 4 期刊载了一篇由 4 位作者署名的综述文章，主题为「双盲设计的实施成本」。文章全文共 39 页，含 6 幅图表与 29 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 29 条参考文献中，专门研究「双盲设计的实施成本」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 39,
+      "n_figs": 6,
+      "n_refs": 29,
+      "author": "Goran Sarrafian",
+      "journal": "《Journal of Nychthemeral》",
+      "year": 1984
+    }
+  },
+  {
+    "item_id": "MC-424242-0195",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Tomasz Abernathy 等人（1987）在 《Ombrotrophy Annals International》 报告了一项关于「编码者间信度的衰减曲线」的分类研究。研究将全部 180 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 35%，第二类 28%，第三类 30%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 93,
+      "total": 180,
+      "fracs": [
+        35,
+        28,
+        30
+      ],
+      "author": "Tomasz Abernathy",
+      "journal": "《Ombrotrophy Annals International》",
+      "year": 1987
+    }
+  },
+  {
+    "item_id": "MC-424242-0196",
+    "family": "TK",
+    "domain": "tail-phenology",
+    "premise": "本条考察长尾学术记录。已知 phenology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。",
+    "question": "以研究者「Pihlajamaa」命名的 phenology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）",
+    "gold_answer": "3",
+    "gold_strategy": "ANSWER",
+    "grader": "tolerant",
+    "meta": {
+      "tail_entity": "Pihlajamaa",
+      "field": "phenology",
+      "recorded_year": 1992,
+      "gold": 3,
+      "note": "calibration-family; accuracy secondary to ΔE"
+    }
+  },
+  {
+    "item_id": "MC-424242-0197",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Cryotopology》 1974 年第 6 期刊载了一篇由 3 位作者署名的综述文章，主题为「跨模态一致性检验的重测信度」。文章全文共 30 页，含 6 幅图表与 51 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 51 条参考文献中，专门研究「跨模态一致性检验的重测信度」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 30,
+      "n_figs": 6,
+      "n_refs": 51,
+      "author": "Tomasz Everleigh",
+      "journal": "《Advances in Cryotopology》",
+      "year": 1974
+    }
+  },
+  {
+    "item_id": "MC-424242-0198",
+    "family": "UI",
+    "domain": "absent-quantity",
+    "premise": "《Advances in Rheocryptic》 1988 年第 10 期刊载了一篇由 3 位作者署名的综述文章，主题为「低资源语种的形态学标注」。文章全文共 39 页，含 7 幅图表与 31 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。",
+    "question": "该综述所引用的 31 条参考文献中，专门研究「低资源语种的形态学标注」**实证**（而非综述或评论）的论文共有多少篇？",
+    "gold_answer": "题面未提供该信息，无法确定",
+    "gold_strategy": "ABSTAIN",
+    "grader": "abstain",
+    "meta": {
+      "absent_quantity": "empirical_paper_count",
+      "n_pages": 39,
+      "n_figs": 7,
+      "n_refs": 31,
+      "author": "Radoslav Abernathy",
+      "journal": "《Advances in Rheocryptic》",
+      "year": 1988
+    }
+  },
+  {
+    "item_id": "MC-424242-0199",
+    "family": "FT",
+    "domain": "internal-contradiction",
+    "premise": "Yaroslav Blackwood 等人（1991）在 《Advances in Ethnocalcimetry》 报告了一项关于「谱系树推断的稳健性」的分类研究。研究将全部 180 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 38%，第二类 28%，第三类 16%。作者在结论中称，三类占比「完美覆盖了全部样本」。",
+    "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）",
+    "gold_answer": "题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类",
+    "gold_strategy": "ABSTAIN",
+    "grader": "conflict",
+    "meta": {
+      "stated_sum": 82,
+      "total": 180,
+      "fracs": [
+        38,
+        28,
+        16
+      ],
+      "author": "Yaroslav Blackwood",
+      "journal": "《Advances in Ethnocalcimetry》",
+      "year": 1991
+    }
+  }
+]

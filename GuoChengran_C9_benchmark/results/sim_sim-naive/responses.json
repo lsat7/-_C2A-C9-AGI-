@@ -1,0 +1,1602 @@
+[
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "32",
+    "post": 0.89,
+    "parse_failed": false,
+    "item_id": "MC-424242-0000"
+  },
+  {
+    "pred": 0.87,
+    "strategy": "ANSWER",
+    "answer": "60",
+    "post": 0.81,
+    "parse_failed": false,
+    "item_id": "MC-424242-0001"
+  },
+  {
+    "pred": 0.87,
+    "strategy": "ANSWER",
+    "answer": "36",
+    "post": 0.77,
+    "parse_failed": false,
+    "item_id": "MC-424242-0002"
+  },
+  {
+    "pred": 0.93,
+    "strategy": "ANSWER",
+    "answer": "15",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0003"
+  },
+  {
+    "pred": 0.81,
+    "strategy": "ANSWER",
+    "answer": "15",
+    "post": 0.79,
+    "parse_failed": false,
+    "item_id": "MC-424242-0004"
+  },
+  {
+    "pred": 0.88,
+    "strategy": "ANSWER",
+    "answer": "32",
+    "post": 0.8,
+    "parse_failed": false,
+    "item_id": "MC-424242-0005"
+  },
+  {
+    "pred": 0.86,
+    "strategy": "ANSWER",
+    "answer": "38",
+    "post": 0.77,
+    "parse_failed": false,
+    "item_id": "MC-424242-0006"
+  },
+  {
+    "pred": 0.97,
+    "strategy": "ANSWER",
+    "answer": "120",
+    "post": 0.92,
+    "parse_failed": false,
+    "item_id": "MC-424242-0007"
+  },
+  {
+    "pred": 0.9,
+    "strategy": "HEDGE",
+    "answer": "15%",
+    "post": 0.83,
+    "parse_failed": false,
+    "item_id": "MC-424242-0008"
+  },
+  {
+    "pred": 0.86,
+    "strategy": "HEDGE",
+    "answer": "6",
+    "post": 0.81,
+    "parse_failed": false,
+    "item_id": "MC-424242-0009"
+  },
+  {
+    "pred": 0.98,
+    "strategy": "HEDGE",
+    "answer": "20%",
+    "post": 0.88,
+    "parse_failed": false,
+    "item_id": "MC-424242-0010"
+  },
+  {
+    "pred": 0.88,
+    "strategy": "ANSWER",
+    "answer": "32",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0011"
+  },
+  {
+    "pred": 0.85,
+    "strategy": "HEDGE",
+    "answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "post": 0.77,
+    "parse_failed": false,
+    "item_id": "MC-424242-0012"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "6",
+    "post": 0.93,
+    "parse_failed": false,
+    "item_id": "MC-424242-0013"
+  },
+  {
+    "pred": 0.88,
+    "strategy": "ANSWER",
+    "answer": "20",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0014"
+  },
+  {
+    "pred": 0.8,
+    "strategy": "HEDGE",
+    "answer": "23",
+    "post": 0.74,
+    "parse_failed": false,
+    "item_id": "MC-424242-0015"
+  },
+  {
+    "pred": 0.95,
+    "strategy": "ANSWER",
+    "answer": "14",
+    "post": 0.86,
+    "parse_failed": false,
+    "item_id": "MC-424242-0016"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "96",
+    "post": 0.89,
+    "parse_failed": false,
+    "item_id": "MC-424242-0017"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "48",
+    "post": 0.96,
+    "parse_failed": false,
+    "item_id": "MC-424242-0018"
+  },
+  {
+    "pred": 0.94,
+    "strategy": "HEDGE",
+    "answer": "23",
+    "post": 0.86,
+    "parse_failed": false,
+    "item_id": "MC-424242-0019"
+  },
+  {
+    "pred": 0.8,
+    "strategy": "ANSWER",
+    "answer": "10",
+    "post": 0.71,
+    "parse_failed": false,
+    "item_id": "MC-424242-0020"
+  },
+  {
+    "pred": 0.8,
+    "strategy": "HEDGE",
+    "answer": "19",
+    "post": 0.73,
+    "parse_failed": false,
+    "item_id": "MC-424242-0021"
+  },
+  {
+    "pred": 0.95,
+    "strategy": "ANSWER",
+    "answer": "23%",
+    "post": 0.94,
+    "parse_failed": false,
+    "item_id": "MC-424242-0022"
+  },
+  {
+    "pred": 0.95,
+    "strategy": "HEDGE",
+    "answer": "29%",
+    "post": 0.94,
+    "parse_failed": false,
+    "item_id": "MC-424242-0023"
+  },
+  {
+    "pred": 0.94,
+    "strategy": "ANSWER",
+    "answer": "36",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0024"
+  },
+  {
+    "pred": 0.9,
+    "strategy": "ANSWER",
+    "answer": "30",
+    "post": 0.89,
+    "parse_failed": false,
+    "item_id": "MC-424242-0025"
+  },
+  {
+    "pred": 0.76,
+    "strategy": "ANSWER",
+    "answer": "39",
+    "post": 0.65,
+    "parse_failed": false,
+    "item_id": "MC-424242-0026"
+  },
+  {
+    "pred": 0.79,
+    "strategy": "HEDGE",
+    "answer": "20%",
+    "post": 0.76,
+    "parse_failed": false,
+    "item_id": "MC-424242-0027"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "ANSWER",
+    "answer": "30",
+    "post": 0.84,
+    "parse_failed": false,
+    "item_id": "MC-424242-0028"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "36",
+    "post": 0.98,
+    "parse_failed": false,
+    "item_id": "MC-424242-0029"
+  },
+  {
+    "pred": 0.82,
+    "strategy": "ANSWER",
+    "answer": "10",
+    "post": 0.74,
+    "parse_failed": false,
+    "item_id": "MC-424242-0030"
+  },
+  {
+    "pred": 0.78,
+    "strategy": "ANSWER",
+    "answer": "17%",
+    "post": 0.77,
+    "parse_failed": false,
+    "item_id": "MC-424242-0031"
+  },
+  {
+    "pred": 0.89,
+    "strategy": "ANSWER",
+    "answer": "25%",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0032"
+  },
+  {
+    "pred": 0.85,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.83,
+    "parse_failed": false,
+    "item_id": "MC-424242-0033"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "ANSWER",
+    "answer": "35",
+    "post": 0.83,
+    "parse_failed": false,
+    "item_id": "MC-424242-0034"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "HEDGE",
+    "answer": "16",
+    "post": 0.88,
+    "parse_failed": false,
+    "item_id": "MC-424242-0035"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "HEDGE",
+    "answer": "2",
+    "post": 0.96,
+    "parse_failed": false,
+    "item_id": "MC-424242-0036"
+  },
+  {
+    "pred": 0.98,
+    "strategy": "ANSWER",
+    "answer": "72",
+    "post": 0.91,
+    "parse_failed": false,
+    "item_id": "MC-424242-0037"
+  },
+  {
+    "pred": 0.93,
+    "strategy": "ANSWER",
+    "answer": "72",
+    "post": 0.92,
+    "parse_failed": false,
+    "item_id": "MC-424242-0038"
+  },
+  {
+    "pred": 0.85,
+    "strategy": "HEDGE",
+    "answer": "7%",
+    "post": 0.79,
+    "parse_failed": false,
+    "item_id": "MC-424242-0039"
+  },
+  {
+    "pred": 0.98,
+    "strategy": "ANSWER",
+    "answer": "31",
+    "post": 0.91,
+    "parse_failed": false,
+    "item_id": "MC-424242-0040"
+  },
+  {
+    "pred": 0.88,
+    "strategy": "ANSWER",
+    "answer": "120",
+    "post": 0.81,
+    "parse_failed": false,
+    "item_id": "MC-424242-0041"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "48",
+    "post": 0.92,
+    "parse_failed": false,
+    "item_id": "MC-424242-0042"
+  },
+  {
+    "pred": 0.86,
+    "strategy": "HEDGE",
+    "answer": "15%",
+    "post": 0.84,
+    "parse_failed": false,
+    "item_id": "MC-424242-0043"
+  },
+  {
+    "pred": 0.81,
+    "strategy": "ANSWER",
+    "answer": "1%",
+    "post": 0.79,
+    "parse_failed": false,
+    "item_id": "MC-424242-0044"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "24",
+    "post": 0.98,
+    "parse_failed": false,
+    "item_id": "MC-424242-0045"
+  },
+  {
+    "pred": 0.97,
+    "strategy": "ANSWER",
+    "answer": "24",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0046"
+  },
+  {
+    "pred": 0.86,
+    "strategy": "HEDGE",
+    "answer": "2",
+    "post": 0.84,
+    "parse_failed": false,
+    "item_id": "MC-424242-0047"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "32",
+    "post": 0.9,
+    "parse_failed": false,
+    "item_id": "MC-424242-0048"
+  },
+  {
+    "pred": 0.87,
+    "strategy": "ANSWER",
+    "answer": "38",
+    "post": 0.81,
+    "parse_failed": false,
+    "item_id": "MC-424242-0049"
+  },
+  {
+    "pred": 0.93,
+    "strategy": "ANSWER",
+    "answer": "23",
+    "post": 0.89,
+    "parse_failed": false,
+    "item_id": "MC-424242-0050"
+  },
+  {
+    "pred": 0.78,
+    "strategy": "ANSWER",
+    "answer": "33",
+    "post": 0.68,
+    "parse_failed": false,
+    "item_id": "MC-424242-0051"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "96",
+    "post": 0.94,
+    "parse_failed": false,
+    "item_id": "MC-424242-0052"
+  },
+  {
+    "pred": 0.92,
+    "strategy": "ANSWER",
+    "answer": "31",
+    "post": 0.83,
+    "parse_failed": false,
+    "item_id": "MC-424242-0053"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.81,
+    "parse_failed": false,
+    "item_id": "MC-424242-0054"
+  },
+  {
+    "pred": 0.76,
+    "strategy": "ANSWER",
+    "answer": "18",
+    "post": 0.66,
+    "parse_failed": false,
+    "item_id": "MC-424242-0055"
+  },
+  {
+    "pred": 0.96,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.86,
+    "parse_failed": false,
+    "item_id": "MC-424242-0056"
+  },
+  {
+    "pred": 0.89,
+    "strategy": "ANSWER",
+    "answer": "18",
+    "post": 0.83,
+    "parse_failed": false,
+    "item_id": "MC-424242-0057"
+  },
+  {
+    "pred": 0.98,
+    "strategy": "HEDGE",
+    "answer": "36",
+    "post": 0.89,
+    "parse_failed": false,
+    "item_id": "MC-424242-0058"
+  },
+  {
+    "pred": 0.86,
+    "strategy": "HEDGE",
+    "answer": "29",
+    "post": 0.82,
+    "parse_failed": false,
+    "item_id": "MC-424242-0059"
+  },
+  {
+    "pred": 0.98,
+    "strategy": "HEDGE",
+    "answer": "8",
+    "post": 0.88,
+    "parse_failed": false,
+    "item_id": "MC-424242-0060"
+  },
+  {
+    "pred": 0.89,
+    "strategy": "ANSWER",
+    "answer": "60",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0061"
+  },
+  {
+    "pred": 0.96,
+    "strategy": "ANSWER",
+    "answer": "13%",
+    "post": 0.86,
+    "parse_failed": false,
+    "item_id": "MC-424242-0062"
+  },
+  {
+    "pred": 0.95,
+    "strategy": "ANSWER",
+    "answer": "28",
+    "post": 0.88,
+    "parse_failed": false,
+    "item_id": "MC-424242-0063"
+  },
+  {
+    "pred": 0.85,
+    "strategy": "ANSWER",
+    "answer": "24%",
+    "post": 0.78,
+    "parse_failed": false,
+    "item_id": "MC-424242-0064"
+  },
+  {
+    "pred": 0.88,
+    "strategy": "HEDGE",
+    "answer": "11%",
+    "post": 0.8,
+    "parse_failed": false,
+    "item_id": "MC-424242-0065"
+  },
+  {
+    "pred": 0.8,
+    "strategy": "ANSWER",
+    "answer": "29%",
+    "post": 0.72,
+    "parse_failed": false,
+    "item_id": "MC-424242-0066"
+  },
+  {
+    "pred": 0.93,
+    "strategy": "HEDGE",
+    "answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "post": 0.9,
+    "parse_failed": false,
+    "item_id": "MC-424242-0067"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "120",
+    "post": 0.92,
+    "parse_failed": false,
+    "item_id": "MC-424242-0068"
+  },
+  {
+    "pred": 0.85,
+    "strategy": "HEDGE",
+    "answer": "23%",
+    "post": 0.76,
+    "parse_failed": false,
+    "item_id": "MC-424242-0069"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "96",
+    "post": 0.91,
+    "parse_failed": false,
+    "item_id": "MC-424242-0070"
+  },
+  {
+    "pred": 0.8,
+    "strategy": "HEDGE",
+    "answer": "题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类",
+    "post": 0.77,
+    "parse_failed": false,
+    "item_id": "MC-424242-0071"
+  },
+  {
+    "pred": 0.75,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.74,
+    "parse_failed": false,
+    "item_id": "MC-424242-0072"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "ANSWER",
+    "answer": "3",
+    "post": 0.82,
+    "parse_failed": false,
+    "item_id": "MC-424242-0073"
+  },
+  {
+    "pred": 0.84,
+    "strategy": "ANSWER",
+    "answer": "12",
+    "post": 0.76,
+    "parse_failed": false,
+    "item_id": "MC-424242-0074"
+  },
+  {
+    "pred": 0.9,
+    "strategy": "HEDGE",
+    "answer": "29",
+    "post": 0.81,
+    "parse_failed": false,
+    "item_id": "MC-424242-0075"
+  },
+  {
+    "pred": 0.83,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.72,
+    "parse_failed": false,
+    "item_id": "MC-424242-0076"
+  },
+  {
+    "pred": 0.9,
+    "strategy": "ANSWER",
+    "answer": "120",
+    "post": 0.84,
+    "parse_failed": false,
+    "item_id": "MC-424242-0077"
+  },
+  {
+    "pred": 0.88,
+    "strategy": "ANSWER",
+    "answer": "28",
+    "post": 0.83,
+    "parse_failed": false,
+    "item_id": "MC-424242-0078"
+  },
+  {
+    "pred": 0.82,
+    "strategy": "HEDGE",
+    "answer": "23%",
+    "post": 0.74,
+    "parse_failed": false,
+    "item_id": "MC-424242-0079"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "26",
+    "post": 0.98,
+    "parse_failed": false,
+    "item_id": "MC-424242-0080"
+  },
+  {
+    "pred": 0.93,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.9,
+    "parse_failed": false,
+    "item_id": "MC-424242-0081"
+  },
+  {
+    "pred": 0.92,
+    "strategy": "ANSWER",
+    "answer": "25",
+    "post": 0.88,
+    "parse_failed": false,
+    "item_id": "MC-424242-0082"
+  },
+  {
+    "pred": 0.76,
+    "strategy": "ANSWER",
+    "answer": "19",
+    "post": 0.67,
+    "parse_failed": false,
+    "item_id": "MC-424242-0083"
+  },
+  {
+    "pred": 0.87,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.8,
+    "parse_failed": false,
+    "item_id": "MC-424242-0084"
+  },
+  {
+    "pred": 0.84,
+    "strategy": "ANSWER",
+    "answer": "20",
+    "post": 0.75,
+    "parse_failed": false,
+    "item_id": "MC-424242-0085"
+  },
+  {
+    "pred": 0.92,
+    "strategy": "ANSWER",
+    "answer": "48",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0086"
+  },
+  {
+    "pred": 0.94,
+    "strategy": "ANSWER",
+    "answer": "9%",
+    "post": 0.85,
+    "parse_failed": false,
+    "item_id": "MC-424242-0087"
+  },
+  {
+    "pred": 0.93,
+    "strategy": "HEDGE",
+    "answer": "20",
+    "post": 0.82,
+    "parse_failed": false,
+    "item_id": "MC-424242-0088"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "87",
+    "post": 0.95,
+    "parse_failed": false,
+    "item_id": "MC-424242-0089"
+  },
+  {
+    "pred": 0.89,
+    "strategy": "ANSWER",
+    "answer": "21",
+    "post": 0.83,
+    "parse_failed": false,
+    "item_id": "MC-424242-0090"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "HEDGE",
+    "answer": "3",
+    "post": 0.88,
+    "parse_failed": false,
+    "item_id": "MC-424242-0091"
+  },
+  {
+    "pred": 0.78,
+    "strategy": "ANSWER",
+    "answer": "33",
+    "post": 0.72,
+    "parse_failed": false,
+    "item_id": "MC-424242-0092"
+  },
+  {
+    "pred": 0.92,
+    "strategy": "ANSWER",
+    "answer": "27%",
+    "post": 0.89,
+    "parse_failed": false,
+    "item_id": "MC-424242-0093"
+  },
+  {
+    "pred": 0.88,
+    "strategy": "HEDGE",
+    "answer": "48",
+    "post": 0.77,
+    "parse_failed": false,
+    "item_id": "MC-424242-0094"
+  },
+  {
+    "pred": 0.92,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.86,
+    "parse_failed": false,
+    "item_id": "MC-424242-0095"
+  },
+  {
+    "pred": 0.8,
+    "strategy": "HEDGE",
+    "answer": "32",
+    "post": 0.74,
+    "parse_failed": false,
+    "item_id": "MC-424242-0096"
+  },
+  {
+    "pred": 0.88,
+    "strategy": "HEDGE",
+    "answer": "17",
+    "post": 0.78,
+    "parse_failed": false,
+    "item_id": "MC-424242-0097"
+  },
+  {
+    "pred": 0.85,
+    "strategy": "ANSWER",
+    "answer": "17",
+    "post": 0.81,
+    "parse_failed": false,
+    "item_id": "MC-424242-0098"
+  },
+  {
+    "pred": 0.85,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.78,
+    "parse_failed": false,
+    "item_id": "MC-424242-0099"
+  },
+  {
+    "pred": 0.88,
+    "strategy": "HEDGE",
+    "answer": "40",
+    "post": 0.79,
+    "parse_failed": false,
+    "item_id": "MC-424242-0100"
+  },
+  {
+    "pred": 0.87,
+    "strategy": "ANSWER",
+    "answer": "20",
+    "post": 0.78,
+    "parse_failed": false,
+    "item_id": "MC-424242-0101"
+  },
+  {
+    "pred": 0.94,
+    "strategy": "ANSWER",
+    "answer": "14",
+    "post": 0.85,
+    "parse_failed": false,
+    "item_id": "MC-424242-0102"
+  },
+  {
+    "pred": 0.95,
+    "strategy": "ANSWER",
+    "answer": "24",
+    "post": 0.86,
+    "parse_failed": false,
+    "item_id": "MC-424242-0103"
+  },
+  {
+    "pred": 0.87,
+    "strategy": "ANSWER",
+    "answer": "30%",
+    "post": 0.79,
+    "parse_failed": false,
+    "item_id": "MC-424242-0104"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "30",
+    "post": 0.98,
+    "parse_failed": false,
+    "item_id": "MC-424242-0105"
+  },
+  {
+    "pred": 0.9,
+    "strategy": "ANSWER",
+    "answer": "3%",
+    "post": 0.8,
+    "parse_failed": false,
+    "item_id": "MC-424242-0106"
+  },
+  {
+    "pred": 0.98,
+    "strategy": "HEDGE",
+    "answer": "96",
+    "post": 0.93,
+    "parse_failed": false,
+    "item_id": "MC-424242-0107"
+  },
+  {
+    "pred": 0.93,
+    "strategy": "ANSWER",
+    "answer": "36",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0108"
+  },
+  {
+    "pred": 0.75,
+    "strategy": "ANSWER",
+    "answer": "11",
+    "post": 0.69,
+    "parse_failed": false,
+    "item_id": "MC-424242-0109"
+  },
+  {
+    "pred": 0.85,
+    "strategy": "ANSWER",
+    "answer": "14%",
+    "post": 0.77,
+    "parse_failed": false,
+    "item_id": "MC-424242-0110"
+  },
+  {
+    "pred": 0.92,
+    "strategy": "ANSWER",
+    "answer": "22",
+    "post": 0.82,
+    "parse_failed": false,
+    "item_id": "MC-424242-0111"
+  },
+  {
+    "pred": 0.8,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.7,
+    "parse_failed": false,
+    "item_id": "MC-424242-0112"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "24",
+    "post": 0.95,
+    "parse_failed": false,
+    "item_id": "MC-424242-0113"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "ANSWER",
+    "answer": "27%",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0114"
+  },
+  {
+    "pred": 0.84,
+    "strategy": "HEDGE",
+    "answer": "17%",
+    "post": 0.81,
+    "parse_failed": false,
+    "item_id": "MC-424242-0115"
+  },
+  {
+    "pred": 0.87,
+    "strategy": "ANSWER",
+    "answer": "72",
+    "post": 0.83,
+    "parse_failed": false,
+    "item_id": "MC-424242-0116"
+  },
+  {
+    "pred": 0.97,
+    "strategy": "ANSWER",
+    "answer": "72",
+    "post": 0.88,
+    "parse_failed": false,
+    "item_id": "MC-424242-0117"
+  },
+  {
+    "pred": 0.9,
+    "strategy": "HEDGE",
+    "answer": "15%",
+    "post": 0.81,
+    "parse_failed": false,
+    "item_id": "MC-424242-0118"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "120",
+    "post": 0.94,
+    "parse_failed": false,
+    "item_id": "MC-424242-0119"
+  },
+  {
+    "pred": 0.83,
+    "strategy": "HEDGE",
+    "answer": "10%",
+    "post": 0.8,
+    "parse_failed": false,
+    "item_id": "MC-424242-0120"
+  },
+  {
+    "pred": 0.9,
+    "strategy": "ANSWER",
+    "answer": "20",
+    "post": 0.85,
+    "parse_failed": false,
+    "item_id": "MC-424242-0121"
+  },
+  {
+    "pred": 0.79,
+    "strategy": "HEDGE",
+    "answer": "9",
+    "post": 0.77,
+    "parse_failed": false,
+    "item_id": "MC-424242-0122"
+  },
+  {
+    "pred": 0.95,
+    "strategy": "ANSWER",
+    "answer": "22",
+    "post": 0.88,
+    "parse_failed": false,
+    "item_id": "MC-424242-0123"
+  },
+  {
+    "pred": 0.77,
+    "strategy": "ANSWER",
+    "answer": "14",
+    "post": 0.69,
+    "parse_failed": false,
+    "item_id": "MC-424242-0124"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "ANSWER",
+    "answer": "24",
+    "post": 0.86,
+    "parse_failed": false,
+    "item_id": "MC-424242-0125"
+  },
+  {
+    "pred": 0.83,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.79,
+    "parse_failed": false,
+    "item_id": "MC-424242-0126"
+  },
+  {
+    "pred": 0.85,
+    "strategy": "ANSWER",
+    "answer": "4",
+    "post": 0.8,
+    "parse_failed": false,
+    "item_id": "MC-424242-0127"
+  },
+  {
+    "pred": 0.8,
+    "strategy": "HEDGE",
+    "answer": "6",
+    "post": 0.72,
+    "parse_failed": false,
+    "item_id": "MC-424242-0128"
+  },
+  {
+    "pred": 0.92,
+    "strategy": "ANSWER",
+    "answer": "20",
+    "post": 0.9,
+    "parse_failed": false,
+    "item_id": "MC-424242-0129"
+  },
+  {
+    "pred": 0.94,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.92,
+    "parse_failed": false,
+    "item_id": "MC-424242-0130"
+  },
+  {
+    "pred": 0.76,
+    "strategy": "ANSWER",
+    "answer": "1",
+    "post": 0.75,
+    "parse_failed": false,
+    "item_id": "MC-424242-0131"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "247",
+    "post": 0.9,
+    "parse_failed": false,
+    "item_id": "MC-424242-0132"
+  },
+  {
+    "pred": 0.82,
+    "strategy": "ANSWER",
+    "answer": "30",
+    "post": 0.78,
+    "parse_failed": false,
+    "item_id": "MC-424242-0133"
+  },
+  {
+    "pred": 0.97,
+    "strategy": "ANSWER",
+    "answer": "60",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0134"
+  },
+  {
+    "pred": 0.86,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.79,
+    "parse_failed": false,
+    "item_id": "MC-424242-0135"
+  },
+  {
+    "pred": 0.92,
+    "strategy": "ANSWER",
+    "answer": "48",
+    "post": 0.9,
+    "parse_failed": false,
+    "item_id": "MC-424242-0136"
+  },
+  {
+    "pred": 0.89,
+    "strategy": "ANSWER",
+    "answer": "1%",
+    "post": 0.88,
+    "parse_failed": false,
+    "item_id": "MC-424242-0137"
+  },
+  {
+    "pred": 0.89,
+    "strategy": "ANSWER",
+    "answer": "16%",
+    "post": 0.83,
+    "parse_failed": false,
+    "item_id": "MC-424242-0138"
+  },
+  {
+    "pred": 0.81,
+    "strategy": "HEDGE",
+    "answer": "题面未提供该信息，无法确定",
+    "post": 0.72,
+    "parse_failed": false,
+    "item_id": "MC-424242-0139"
+  },
+  {
+    "pred": 0.83,
+    "strategy": "ANSWER",
+    "answer": "9%",
+    "post": 0.76,
+    "parse_failed": false,
+    "item_id": "MC-424242-0140"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "120",
+    "post": 0.95,
+    "parse_failed": false,
+    "item_id": "MC-424242-0141"
+  },
+  {
+    "pred": 0.95,
+    "strategy": "ANSWER",
+    "answer": "19",
+    "post": 0.89,
+    "parse_failed": false,
+    "item_id": "MC-424242-0142"
+  },
+  {
+    "pred": 0.85,
+    "strategy": "HEDGE",
+    "answer": "13",
+    "post": 0.76,
+    "parse_failed": false,
+    "item_id": "MC-424242-0143"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "48",
+    "post": 0.93,
+    "parse_failed": false,
+    "item_id": "MC-424242-0144"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "HEDGE",
+    "answer": "30%",
+    "post": 0.9,
+    "parse_failed": false,
+    "item_id": "MC-424242-0145"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "2",
+    "post": 0.89,
+    "parse_failed": false,
+    "item_id": "MC-424242-0146"
+  },
+  {
+    "pred": 0.83,
+    "strategy": "ANSWER",
+    "answer": "17",
+    "post": 0.81,
+    "parse_failed": false,
+    "item_id": "MC-424242-0147"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "48",
+    "post": 0.91,
+    "parse_failed": false,
+    "item_id": "MC-424242-0148"
+  },
+  {
+    "pred": 0.86,
+    "strategy": "HEDGE",
+    "answer": "3",
+    "post": 0.82,
+    "parse_failed": false,
+    "item_id": "MC-424242-0149"
+  },
+  {
+    "pred": 0.8,
+    "strategy": "HEDGE",
+    "answer": "6%",
+    "post": 0.7,
+    "parse_failed": false,
+    "item_id": "MC-424242-0150"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "36",
+    "post": 0.9,
+    "parse_failed": false,
+    "item_id": "MC-424242-0151"
+  },
+  {
+    "pred": 0.79,
+    "strategy": "HEDGE",
+    "answer": "3%",
+    "post": 0.73,
+    "parse_failed": false,
+    "item_id": "MC-424242-0152"
+  },
+  {
+    "pred": 0.82,
+    "strategy": "HEDGE",
+    "answer": "21",
+    "post": 0.8,
+    "parse_failed": false,
+    "item_id": "MC-424242-0153"
+  },
+  {
+    "pred": 0.81,
+    "strategy": "HEDGE",
+    "answer": "题面未提供该信息，无法确定",
+    "post": 0.7,
+    "parse_failed": false,
+    "item_id": "MC-424242-0154"
+  },
+  {
+    "pred": 0.79,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.69,
+    "parse_failed": false,
+    "item_id": "MC-424242-0155"
+  },
+  {
+    "pred": 0.93,
+    "strategy": "ANSWER",
+    "answer": "120",
+    "post": 0.91,
+    "parse_failed": false,
+    "item_id": "MC-424242-0156"
+  },
+  {
+    "pred": 0.98,
+    "strategy": "HEDGE",
+    "answer": "题面未提供该信息，无法确定",
+    "post": 0.9,
+    "parse_failed": false,
+    "item_id": "MC-424242-0157"
+  },
+  {
+    "pred": 0.97,
+    "strategy": "ANSWER",
+    "answer": "2",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0158"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "ANSWER",
+    "answer": "25",
+    "post": 0.89,
+    "parse_failed": false,
+    "item_id": "MC-424242-0159"
+  },
+  {
+    "pred": 0.78,
+    "strategy": "HEDGE",
+    "answer": "6%",
+    "post": 0.76,
+    "parse_failed": false,
+    "item_id": "MC-424242-0160"
+  },
+  {
+    "pred": 0.83,
+    "strategy": "ANSWER",
+    "answer": "20%",
+    "post": 0.8,
+    "parse_failed": false,
+    "item_id": "MC-424242-0161"
+  },
+  {
+    "pred": 0.98,
+    "strategy": "ANSWER",
+    "answer": "30",
+    "post": 0.92,
+    "parse_failed": false,
+    "item_id": "MC-424242-0162"
+  },
+  {
+    "pred": 0.93,
+    "strategy": "HEDGE",
+    "answer": "5",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0163"
+  },
+  {
+    "pred": 0.95,
+    "strategy": "ANSWER",
+    "answer": "96",
+    "post": 0.85,
+    "parse_failed": false,
+    "item_id": "MC-424242-0164"
+  },
+  {
+    "pred": 0.8,
+    "strategy": "ANSWER",
+    "answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "post": 0.74,
+    "parse_failed": false,
+    "item_id": "MC-424242-0165"
+  },
+  {
+    "pred": 0.78,
+    "strategy": "ANSWER",
+    "answer": "15",
+    "post": 0.71,
+    "parse_failed": false,
+    "item_id": "MC-424242-0166"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "283",
+    "post": 0.95,
+    "parse_failed": false,
+    "item_id": "MC-424242-0167"
+  },
+  {
+    "pred": 0.89,
+    "strategy": "HEDGE",
+    "answer": "9%",
+    "post": 0.82,
+    "parse_failed": false,
+    "item_id": "MC-424242-0168"
+  },
+  {
+    "pred": 0.79,
+    "strategy": "ANSWER",
+    "answer": "16",
+    "post": 0.7,
+    "parse_failed": false,
+    "item_id": "MC-424242-0169"
+  },
+  {
+    "pred": 0.79,
+    "strategy": "ANSWER",
+    "answer": "11%",
+    "post": 0.71,
+    "parse_failed": false,
+    "item_id": "MC-424242-0170"
+  },
+  {
+    "pred": 0.87,
+    "strategy": "ANSWER",
+    "answer": "21%",
+    "post": 0.77,
+    "parse_failed": false,
+    "item_id": "MC-424242-0171"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "ANSWER",
+    "answer": "96",
+    "post": 0.84,
+    "parse_failed": false,
+    "item_id": "MC-424242-0172"
+  },
+  {
+    "pred": 0.76,
+    "strategy": "HEDGE",
+    "answer": "8",
+    "post": 0.71,
+    "parse_failed": false,
+    "item_id": "MC-424242-0173"
+  },
+  {
+    "pred": 0.9,
+    "strategy": "ANSWER",
+    "answer": "24",
+    "post": 0.81,
+    "parse_failed": false,
+    "item_id": "MC-424242-0174"
+  },
+  {
+    "pred": 0.99,
+    "strategy": "ANSWER",
+    "answer": "60",
+    "post": 0.88,
+    "parse_failed": false,
+    "item_id": "MC-424242-0175"
+  },
+  {
+    "pred": 0.93,
+    "strategy": "ANSWER",
+    "answer": "96",
+    "post": 0.82,
+    "parse_failed": false,
+    "item_id": "MC-424242-0176"
+  },
+  {
+    "pred": 0.98,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0177"
+  },
+  {
+    "pred": 0.88,
+    "strategy": "ANSWER",
+    "answer": "21",
+    "post": 0.81,
+    "parse_failed": false,
+    "item_id": "MC-424242-0178"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "ANSWER",
+    "answer": "3",
+    "post": 0.85,
+    "parse_failed": false,
+    "item_id": "MC-424242-0179"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "HEDGE",
+    "answer": "题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类",
+    "post": 0.82,
+    "parse_failed": false,
+    "item_id": "MC-424242-0180"
+  },
+  {
+    "pred": 0.94,
+    "strategy": "ANSWER",
+    "answer": "30",
+    "post": 0.86,
+    "parse_failed": false,
+    "item_id": "MC-424242-0181"
+  },
+  {
+    "pred": 0.94,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.86,
+    "parse_failed": false,
+    "item_id": "MC-424242-0182"
+  },
+  {
+    "pred": 0.95,
+    "strategy": "HEDGE",
+    "answer": "1%",
+    "post": 0.94,
+    "parse_failed": false,
+    "item_id": "MC-424242-0183"
+  },
+  {
+    "pred": 0.97,
+    "strategy": "HEDGE",
+    "answer": "7%",
+    "post": 0.9,
+    "parse_failed": false,
+    "item_id": "MC-424242-0184"
+  },
+  {
+    "pred": 0.9,
+    "strategy": "ANSWER",
+    "answer": "13%",
+    "post": 0.82,
+    "parse_failed": false,
+    "item_id": "MC-424242-0185"
+  },
+  {
+    "pred": 0.83,
+    "strategy": "ANSWER",
+    "answer": "36",
+    "post": 0.8,
+    "parse_failed": false,
+    "item_id": "MC-424242-0186"
+  },
+  {
+    "pred": 0.83,
+    "strategy": "HEDGE",
+    "answer": "33",
+    "post": 0.76,
+    "parse_failed": false,
+    "item_id": "MC-424242-0187"
+  },
+  {
+    "pred": 0.76,
+    "strategy": "ANSWER",
+    "answer": "7",
+    "post": 0.69,
+    "parse_failed": false,
+    "item_id": "MC-424242-0188"
+  },
+  {
+    "pred": 0.81,
+    "strategy": "ANSWER",
+    "answer": "10%",
+    "post": 0.79,
+    "parse_failed": false,
+    "item_id": "MC-424242-0189"
+  },
+  {
+    "pred": 0.98,
+    "strategy": "ANSWER",
+    "answer": "35",
+    "post": 0.94,
+    "parse_failed": false,
+    "item_id": "MC-424242-0190"
+  },
+  {
+    "pred": 0.92,
+    "strategy": "ANSWER",
+    "answer": "15",
+    "post": 0.88,
+    "parse_failed": false,
+    "item_id": "MC-424242-0191"
+  },
+  {
+    "pred": 0.88,
+    "strategy": "ANSWER",
+    "answer": "3",
+    "post": 0.82,
+    "parse_failed": false,
+    "item_id": "MC-424242-0192"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "ANSWER",
+    "answer": "120",
+    "post": 0.87,
+    "parse_failed": false,
+    "item_id": "MC-424242-0193"
+  },
+  {
+    "pred": 0.91,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.88,
+    "parse_failed": false,
+    "item_id": "MC-424242-0194"
+  },
+  {
+    "pred": 0.86,
+    "strategy": "ANSWER",
+    "answer": "题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类",
+    "post": 0.79,
+    "parse_failed": false,
+    "item_id": "MC-424242-0195"
+  },
+  {
+    "pred": 0.81,
+    "strategy": "ABSTAIN",
+    "answer": "无法确定",
+    "post": 0.73,
+    "parse_failed": false,
+    "item_id": "MC-424242-0196"
+  },
+  {
+    "pred": 0.8,
+    "strategy": "HEDGE",
+    "answer": "12",
+    "post": 0.76,
+    "parse_failed": false,
+    "item_id": "MC-424242-0197"
+  },
+  {
+    "pred": 0.96,
+    "strategy": "HEDGE",
+    "answer": "12",
+    "post": 0.89,
+    "parse_failed": false,
+    "item_id": "MC-424242-0198"
+  },
+  {
+    "pred": 0.8,
+    "strategy": "HEDGE",
+    "answer": "题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类",
+    "post": 0.73,
+    "parse_failed": false,
+    "item_id": "MC-424242-0199"
+  }
+]

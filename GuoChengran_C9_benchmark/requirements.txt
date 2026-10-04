@@ -1,0 +1,17 @@
+# MetaCal — Predictive Metacognition Calibration Benchmark
+# Requirements
+#
+# The benchmark core (generate / grade / audit / self_test / human form)
+# runs on the Python STANDARD LIBRARY ONLY — no third-party packages.
+# This is deliberate: a metacognition benchmark must be reproducible by
+# anyone, anywhere, without a dependency-resolution step.
+#
+# Python >= 3.8 (tested on 3.8.10 and 3.13.12)
+
+# --- optional: only needed if you want to hit non-OpenAI-compatible APIs ---
+# (the built-in OpenAICompatAdapter / AnthropicAdapter use urllib from stdlib)
+
+# --- optional: development / test tooling ---
+# pytest>=7.0
+
+# --- optional: only for the human-baseline form generator (none needed) ---

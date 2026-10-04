@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MetaCal 人类基线 · 元认知自评任务</title>
+<style>
+ :root{--bg:#f7f8fa;--card:#fff;--ink:#1b1f24;--muted:#65707c;
+        --line:#e3e7ec;--accent:#1a6fd4;--accent-soft:#eaf2fd;}
+ *{box-sizing:border-box}
+ body{margin:0;font-family:-apple-system,"Segoe UI","PingFang SC",
+      "Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);
+      line-height:1.65}
+ .wrap{max-width:760px;margin:0 auto;padding:28px 20px 80px}
+ h1{font-size:21px;margin:0 0 6px}
+ .sub{color:var(--muted);font-size:13px;margin-bottom:22px}
+ .card{background:var(--card);border:1px solid var(--line);border-radius:12px;
+       padding:22px;margin-bottom:18px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+ .phase{font-size:12px;font-weight:600;letter-spacing:.06em;
+        color:var(--accent);text-transform:uppercase;margin-bottom:10px}
+ .premise{background:#fbfcfd;border-left:3px solid var(--accent);
+          padding:12px 14px;border-radius:6px;font-size:14px;
+          color:#333c46;margin:10px 0}
+ .q{font-weight:600;margin:12px 0 14px;font-size:15px}
+ label.lbl{display:block;font-size:13px;color:var(--muted);margin:14px 0 6px}
+ input[type=range]{width:100%}
+ .val{font-variant-numeric:tabular-nums;font-weight:600}
+ .opts{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+ .opt{flex:1 1 160px;border:1px solid var(--line);border-radius:8px;
+      padding:10px 12px;cursor:pointer;font-size:13px;background:#fff;
+      transition:.15s}
+ .opt:hover{border-color:var(--accent);background:var(--accent-soft)}
+ .opt.sel{border-color:var(--accent);background:var(--accent-soft);
+          box-shadow:inset 0 0 0 1px var(--accent)}
+ textarea{width:100%;min-height:70px;border:1px solid var(--line);
+          border-radius:8px;padding:10px;font:inherit;font-size:14px;
+          resize:vertical}
+ .bar{position:fixed;left:0;right:0;bottom:0;background:#fff;
+      border-top:1px solid var(--line);padding:12px 20px;display:flex;
+      gap:14px;align-items:center;justify-content:center}
+ .bar .prog{font-size:13px;color:var(--muted)}
+ button{background:var(--accent);color:#fff;border:0;border-radius:8px;
+        padding:10px 22px;font:inherit;font-weight:600;cursor:pointer}
+ button.ghost{background:#fff;color:var(--accent);
+              border:1px solid var(--accent)}
+ button:disabled{opacity:.45;cursor:not-allowed}
+ .done{display:none;text-align:center;padding:40px 10px}
+ .done h2{color:#1a7f45}
+ .note{font-size:12px;color:var(--muted);margin-top:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>MetaCal 元认知自评任务</h1>
+  <div class="sub">
+    这是一个测量「你知道自己知道什么」的任务。每题分三步：<b>先预测</b>你能否答对，
+    <b>再作答</b>，最后<b>再次评估</b>。请如实作答 —— 目标不是拿高分，
+    而是让自评尽量准确。共 40 题，约需 28 分钟。
+  </div>
+
+  <div class="card">
+    <label class="lbl">被试编号 / Participant ID（可填化名）</label>
+    <input id="pid" style="width:100%;padding:9px;border:1px solid var(--line);
+           border-radius:8px;font:inherit" placeholder="例如 P07">
+    <label class="lbl">所在组别（用于人类基线分层）</label>
+    <div class="opts" id="group">
+      <div class="opt" data-v="undergrad">本科生</div>
+      <div class="opt" data-v="grad">研究生</div>
+      <div class="opt" data-v="expert">相关领域研究者 / 有统计训练</div>
+    </div>
+  </div>
+
+  <div id="qarea"></div>
+
+  <div class="done" id="done">
+    <h2>✓ 全部完成</h2>
+    <p>感谢参与。请点击下方按钮导出结果文件并发给研究者。</p>
+    <button id="dl">下载结果 JSON</button>
+    <div class="note" id="dlnote"></div>
+  </div>
+</div>
+
+<div class="bar">
+  <span class="prog" id="prog">第 0 / 40 题</span>
+  <button class="ghost" id="prev">上一题</button>
+  <button id="next">下一题</button>
+</div>
+
+<script>
+const ITEMS = [{"item_id": "MC-7-0000", "family": "SI", "premise": "Radoslav Abernathy 等人于 1987 年在 《Taphonomy Studies International》 发表了一篇关于「低资源语种的形态学标注」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 8 名被试，全部批次共 24 名被试。研究以 p < 0.11 作为显著性阈值，并报告了 3 组独立的效应量估计。", "question": "该研究总共纳入了多少名被试？（请只回答数字）"}, {"item_id": "MC-7-0001", "family": "TK", "premise": "本条考察长尾学术记录。已知 pedology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。", "question": "以研究者「Falkenrath」命名的 pedology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）"}, {"item_id": "MC-7-0002", "family": "UI", "premise": "《Advances in Mnemotaxonomy》 1970 年第 2 期刊载了一篇由 6 位作者署名的综述文章，主题为「低资源语种的形态学标注」。文章全文共 19 页，含 5 幅图表与 49 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。", "question": "该综述所引用的 49 条参考文献中，专门研究「低资源语种的形态学标注」**实证**（而非综述或评论）的论文共有多少篇？"}, {"item_id": "MC-7-0003", "family": "UI", "premise": "《Advances in Rheocryptic》 1986 年第 4 期刊载了一篇由 5 位作者署名的综述文章，主题为「小样本条件下的判别效度」。文章全文共 14 页，含 3 幅图表与 93 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。", "question": "该综述所引用的 93 条参考文献中，专门研究「小样本条件下的判别效度」**实证**（而非综述或评论）的论文共有多少篇？"}, {"item_id": "MC-7-0004", "family": "UI", "premise": "《The Geosemiotics Transactions》 1986 年第 10 期刊载了一篇由 6 位作者署名的综述文章，主题为「小样本条件下的判别效度」。文章全文共 23 页，含 4 幅图表与 89 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。", "question": "该综述所引用的 89 条参考文献中，专门研究「小样本条件下的判别效度」**实证**（而非综述或评论）的论文共有多少篇？"}, {"item_id": "MC-7-0005", "family": "UI", "premise": "《Ethnocalcimetry Chronicle International》 1986 年第 7 期刊载了一篇由 6 位作者署名的综述文章，主题为「谱系树推断的稳健性」。文章全文共 19 页，含 4 幅图表与 35 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。", "question": "该综述所引用的 35 条参考文献中，专门研究「谱系树推断的稳健性」**实证**（而非综述或评论）的论文共有多少篇？"}, {"item_id": "MC-7-0006", "family": "TK", "premise": "本条考察长尾学术记录。已知 ethology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。", "question": "以研究者「Kettilsson」命名的 ethology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）"}, {"item_id": "MC-7-0007", "family": "FT", "premise": "Radoslav Ivorsen 等人（1995）在 《Journal of Geosemiotics》 报告了一项关于「跨模态一致性检验的重测信度」的分类研究。研究将全部 240 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 32%，第二类 28%，第三类 28%。作者在结论中称，三类占比「完美覆盖了全部样本」。", "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）"}, {"item_id": "MC-7-0008", "family": "SI", "premise": "Radoslav Pettersen 等人于 1992 年在 《The Agnotology Review》 发表了一篇关于「跨模态一致性检验的重测信度」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 8 名被试，全部批次共 32 名被试。研究以 p < 0.13 作为显著性阈值，并报告了 4 组独立的效应量估计。", "question": "该研究总共纳入了多少名被试？（请只回答数字）"}, {"item_id": "MC-7-0009", "family": "UI", "premise": "《Journal of Umbelliferous》 1994 年第 9 期刊载了一篇由 3 位作者署名的综述文章，主题为「情境依赖的记忆再巩固」。文章全文共 31 页，含 11 幅图表与 71 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。", "question": "该综述所引用的 71 条参考文献中，专门研究「情境依赖的记忆再巩固」**实证**（而非综述或评论）的论文共有多少篇？"}, {"item_id": "MC-7-0010", "family": "TK", "premise": "本条考察长尾学术记录。已知 cryology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。", "question": "以研究者「Tsvetkov」命名的 cryology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）"}, {"item_id": "MC-7-0011", "family": "SI", "premise": "Sunniva Rasmussen 等人于 1993 年在 《The Mnemotaxonomy Chronicle》 发表了一篇关于「低资源语种的形态学标注」的研究。该研究采用多批次抽样设计：样本被平均分为 3 个批次，每个批次包含 12 名被试，全部批次共 36 名被试。研究以 p < 0.17 作为显著性阈值，并报告了 3 组独立的效应量估计。", "question": "该研究总共纳入了多少名被试？（请只回答数字）"}, {"item_id": "MC-7-0012", "family": "FT", "premise": "Quirina Abernathy 等人（1993）在 《The Limnochemistry Transactions》 报告了一项关于「双盲设计的实施成本」的分类研究。研究将全部 180 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 30%，第二类 24%，第三类 36%。作者在结论中称，三类占比「完美覆盖了全部样本」。", "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）"}, {"item_id": "MC-7-0013", "family": "UI", "premise": "《Journal of Geosemiotics》 1984 年第 11 期刊载了一篇由 5 位作者署名的综述文章，主题为「自评偏差的纵向稳定性」。文章全文共 40 页，含 7 幅图表与 81 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。", "question": "该综述所引用的 81 条参考文献中，专门研究「自评偏差的纵向稳定性」**实证**（而非综述或评论）的论文共有多少篇？"}, {"item_id": "MC-7-0014", "family": "TK", "premise": "本条考察长尾学术记录。已知 mycology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。", "question": "以研究者「Cavallaro」命名的 mycology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）"}, {"item_id": "MC-7-0015", "family": "UI", "premise": "《Advances in Limnochemistry》 1988 年第 4 期刊载了一篇由 6 位作者署名的综述文章，主题为「扰动实验的生态效度」。文章全文共 17 页，含 10 幅图表与 35 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。", "question": "该综述所引用的 35 条参考文献中，专门研究「扰动实验的生态效度」**实证**（而非综述或评论）的论文共有多少篇？"}, {"item_id": "MC-7-0016", "family": "FT", "premise": "Aurelio Cranmore 等人（1969）在 《The Limnochemistry Letters》 报告了一项关于「自评偏差的纵向稳定性」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 40%，第二类 26%，第三类 24%。作者在结论中称，三类占比「完美覆盖了全部样本」。", "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）"}, {"item_id": "MC-7-0017", "family": "TK", "premise": "本条考察长尾学术记录。已知 pedology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。", "question": "以研究者「Falkenrath」命名的 pedology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）"}, {"item_id": "MC-7-0018", "family": "FT", "premise": "Aurelio Dunmore 等人（1969）在 《Advances in Agnotology》 报告了一项关于「情境依赖的记忆再巩固」的分类研究。研究将全部 300 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 35%，第二类 35%，第三类 23%。作者在结论中称，三类占比「完美覆盖了全部样本」。", "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）"}, {"item_id": "MC-7-0019", "family": "FT", "premise": "Marisol Rasmussen 等人（1990）在 《Advances in Funambulatory》 报告了一项关于「情境依赖的记忆再巩固」的分类研究。研究将全部 180 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 40%，第二类 26%，第三类 24%。作者在结论中称，三类占比「完美覆盖了全部样本」。", "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）"}, {"item_id": "MC-7-0020", "family": "UI", "premise": "《Kinetosemantics Chronicle International》 1974 年第 5 期刊载了一篇由 5 位作者署名的综述文章，主题为「遥相关指数的重构误差」。文章全文共 31 页，含 11 幅图表与 69 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。", "question": "该综述所引用的 69 条参考文献中，专门研究「遥相关指数的重构误差」**实证**（而非综述或评论）的论文共有多少篇？"}, {"item_id": "MC-7-0021", "family": "TK", "premise": "本条考察长尾学术记录。已知 optics 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。", "question": "以研究者「Jablonowski」命名的 optics 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）"}, {"item_id": "MC-7-0022", "family": "SI", "premise": "Sunniva Kowalczyk 等人于 1976 年在 《The Limnochemistry Chronicle》 发表了一篇关于「谱系树推断的稳健性」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 18 名被试，全部批次共 72 名被试。研究以 p < 0.11 作为显著性阈值，并报告了 4 组独立的效应量估计。", "question": "该研究总共纳入了多少名被试？（请只回答数字）"}, {"item_id": "MC-7-0023", "family": "FT", "premise": "Csilla Pettersen 等人（1994）在 《The Dendroacoustics Studies》 报告了一项关于「自评偏差的纵向稳定性」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 28%，第二类 30%，第三类 27%。作者在结论中称，三类占比「完美覆盖了全部样本」。", "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）"}, {"item_id": "MC-7-0024", "family": "TK", "premise": "本条考察长尾学术记录。已知 ethology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。", "question": "以研究者「Kettilsson」命名的 ethology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）"}, {"item_id": "MC-7-0025", "family": "UI", "premise": "《The Taphonomy Transactions》 1979 年第 5 期刊载了一篇由 4 位作者署名的综述文章，主题为「编码者间信度的衰减曲线」。文章全文共 31 页，含 3 幅图表与 87 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。", "question": "该综述所引用的 87 条参考文献中，专门研究「编码者间信度的衰减曲线」**实证**（而非综述或评论）的论文共有多少篇？"}, {"item_id": "MC-7-0026", "family": "SI", "premise": "Sunniva Abernathy 等人于 1987 年在 《Journal of Umbelliferous》 发表了一篇关于「情境依赖的记忆再巩固」的研究。该研究采用多批次抽样设计：样本被平均分为 2 个批次，每个批次包含 48 名被试，全部批次共 96 名被试。研究以 p < 0.23 作为显著性阈值，并报告了 2 组独立的效应量估计。", "question": "该研究总共纳入了多少名被试？（请只回答数字）"}, {"item_id": "MC-7-0027", "family": "SI", "premise": "Lubos Jansen 等人于 1994 年在 《Journal of Nychthemeral》 发表了一篇关于「低资源语种的形态学标注」的研究。该研究采用多批次抽样设计：样本被平均分为 4 个批次，每个批次包含 12 名被试，全部批次共 48 名被试。研究以 p < 0.19 作为显著性阈值，并报告了 4 组独立的效应量估计。", "question": "该研究总共纳入了多少名被试？（请只回答数字）"}, {"item_id": "MC-7-0028", "family": "TK", "premise": "本条考察长尾学术记录。已知 mycology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。", "question": "以研究者「Cavallaro」命名的 mycology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）"}, {"item_id": "MC-7-0029", "family": "UI", "premise": "《Advances in Ethnocalcimetry》 1972 年第 1 期刊载了一篇由 6 位作者署名的综述文章，主题为「分布式注释者的一致性阈值」。文章全文共 14 页，含 4 幅图表与 44 条参考文献。文章的摘要指出，该领域近年来的研究数量增长显著，但摘要与正文均未按子主题拆分统计。", "question": "该综述所引用的 44 条参考文献中，专门研究「分布式注释者的一致性阈值」**实证**（而非综述或评论）的论文共有多少篇？"}, {"item_id": "MC-7-0030", "family": "FT", "premise": "Ivo Fairweather 等人（1991）在 《Journal of Geosemiotics》 报告了一项关于「分布式注释者的一致性阈值」的分类研究。研究将全部 180 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 40%，第二类 35%，第三类 15%。作者在结论中称，三类占比「完美覆盖了全部样本」。", "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）"}, {"item_id": "MC-7-0031", "family": "TK", "premise": "本条考察长尾学术记录。已知 cryology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。", "question": "以研究者「Tsvetkov」命名的 cryology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）"}, {"item_id": "MC-7-0032", "family": "FT", "premise": "Dagny Blackwood 等人（1992）在 《The Mnemotaxonomy Quarterly》 报告了一项关于「情境依赖的记忆再巩固」的分类研究。研究将全部 150 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 35%，第二类 30%，第三类 17%。作者在结论中称，三类占比「完美覆盖了全部样本」。", "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）"}, {"item_id": "MC-7-0033", "family": "SI", "premise": "Sunniva Nakagawa 等人于 1993 年在 《Ichthyophony Bulletin International》 发表了一篇关于「扰动实验的生态效度」的研究。该研究采用多批次抽样设计：样本被平均分为 2 个批次，每个批次包含 12 名被试，全部批次共 24 名被试。研究以 p < 0.13 作为显著性阈值，并报告了 2 组独立的效应量估计。", "question": "该研究总共纳入了多少名被试？（请只回答数字）"}, {"item_id": "MC-7-0034", "family": "TK", "premise": "本条考察长尾学术记录。已知 geomorphology 领域存在一批以研究者姓氏命名的小型数据集（legacy datasets），收录于 1960–1995 年间的区域性档案中，未被主流文献索引覆盖。", "question": "以研究者「Sandvik」命名的 geomorphology 数据集，其官方档案记录的**版本序列号**是多少？（请给出数字；若你不确定该记录是否存在，请说明）"}, {"item_id": "MC-7-0035", "family": "SI", "premise": "Fenna Grimsdottir 等人于 1986 年在 《Journal of Geosemiotics》 发表了一篇关于「小样本条件下的判别效度」的研究。该研究采用多批次抽样设计：样本被平均分为 6 个批次，每个批次包含 5 名被试，全部批次共 30 名被试。研究以 p < 0.19 作为显著性阈值，并报告了 6 组独立的效应量估计。", "question": "该研究总共纳入了多少名被试？（请只回答数字）"}, {"item_id": "MC-7-0036", "family": "SI", "premise": "Kestrel Cranmore 等人于 1977 年在 《Advances in Agnotology》 发表了一篇关于「编码者间信度的衰减曲线」的研究。该研究采用多批次抽样设计：样本被平均分为 6 个批次，每个批次包含 16 名被试，全部批次共 96 名被试。研究以 p < 0.23 作为显著性阈值，并报告了 6 组独立的效应量估计。", "question": "该研究总共纳入了多少名被试？（请只回答数字）"}, {"item_id": "MC-7-0037", "family": "FT", "premise": "Elias Fairweather 等人（1995）在 《Advances in Dendroacoustics》 报告了一项关于「双盲设计的实施成本」的分类研究。研究将全部 240 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 32%，第二类 30%，第三类 28%。作者在结论中称，三类占比「完美覆盖了全部样本」。", "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）"}, {"item_id": "MC-7-0038", "family": "SI", "premise": "Fenna Everleigh 等人于 1995 年在 《Dendroacoustics Annals International》 发表了一篇关于「谱系树推断的稳健性」的研究。该研究采用多批次抽样设计：样本被平均分为 2 个批次，每个批次包含 16 名被试，全部批次共 32 名被试。研究以 p < 0.23 作为显著性阈值，并报告了 2 组独立的效应量估计。", "question": "该研究总共纳入了多少名被试？（请只回答数字）"}, {"item_id": "MC-7-0039", "family": "FT", "premise": "Quirina Rasmussen 等人（1991）在 《Journal of Nychthemeral》 报告了一项关于「双盲设计的实施成本」的分类研究。研究将全部 300 个样本单位划分为三类，且**明确说明三类构成完备划分**（即三类之和恰好等于总体）。三类占比分别为：第一类 35%，第二类 24%，第三类 23%。作者在结论中称，三类占比「完美覆盖了全部样本」。", "question": "依据该研究给出的完备划分，除上述三类之外的第四类样本占比是多少？（请给出百分比数字；若题面存在矛盾无法推出，请说明）"}];
+const ANSWERS = {};
+let idx = 0;
+let group = null;
+
+function cur(){ return ITEMS[idx]; }
+
+function render(){
+  const it = cur();
+  const a = ANSWERS[it.item_id] || {pred:50, strategy:null, answer:"", post:50};
+  const area = document.getElementById('qarea');
+  area.innerHTML = `
+   <div class="card">
+     <div class="phase">阶段 1 — 事前预测</div>
+     <div class="premise">${esc(it.premise)}</div>
+     <div class="q">${esc(it.question)}</div>
+     <label class="lbl">a) 你答对本题的概率：<span class="val" id="pv">${a.pred}</span>%</label>
+     <input type="range" id="pred" min="0" max="100" step="5" value="${a.pred}">
+     <label class="lbl">b) 你的策略</label>
+     <div class="opts" id="strat">
+       <div class="opt" data-v="ANSWER">直接作答</div>
+       <div class="opt" data-v="HEDGE">声明不确定，但仍给出答案</div>
+       <div class="opt" data-v="ABSTAIN">拒答（无法确定）</div>
+     </div>
+   </div>
+   <div class="card">
+     <div class="phase">阶段 2 — 作答</div>
+     <textarea id="ans" placeholder="写下你的答案；若拒答请留空。">${esc(a.answer)}</textarea>
+   </div>
+   <div class="card">
+     <div class="phase">阶段 3 — 事后自评</div>
+     <label class="lbl">现在你认为自己答对的概率：
+       <span class="val" id="qv">${a.post}</span>%</label>
+     <input type="range" id="post" min="0" max="100" step="5" value="${a.post}">
+     <div class="note">提示：请独立判断，不要为了与阶段 1 一致而刻意对齐。</div>
+   </div>`;
+
+  const pr = document.getElementById('pred');
+  pr.oninput = () => { document.getElementById('pv').textContent = pr.value; };
+  const po = document.getElementById('post');
+  po.oninput = () => { document.getElementById('qv').textContent = po.value; };
+
+  const sr = document.getElementById('strat');
+  sr.querySelectorAll('.opt').forEach(o => {
+    if (o.dataset.v === a.strategy) o.classList.add('sel');
+    o.onclick = () => {
+      sr.querySelectorAll('.opt').forEach(x => x.classList.remove('sel'));
+      o.classList.add('sel');
+    };
+  });
+
+  document.getElementById('prog').textContent = `第 ${idx+1} / ${ITEMS.length} 题`;
+  document.getElementById('prev').disabled = idx === 0;
+  document.getElementById('next').textContent =
+      idx === ITEMS.length - 1 ? '完成' : '下一题';
+}
+
+function esc(s){ return String(s).replace(/[&<>]/g,
+  c => ({'&':'&amp;','<':'&lt;','>':'&gt;'})[c]); }
+
+function save(){
+  const it = cur();
+  const sel = document.querySelector('#strat .opt.sel');
+  ANSWERS[it.item_id] = {
+    pred: +document.getElementById('pred').value,
+    strategy: sel ? sel.dataset.v : null,
+    answer: document.getElementById('ans').value,
+    post: +document.getElementById('post').value,
+  };
+}
+
+document.getElementById('group').querySelectorAll('.opt').forEach(o => {
+  o.onclick = () => {
+    document.getElementById('group').querySelectorAll('.opt')
+      .forEach(x => x.classList.remove('sel'));
+    o.classList.add('sel'); group = o.dataset.v;
+  };
+});
+
+document.getElementById('prev').onclick = () => { save(); idx--; render(); };
+document.getElementById('next').onclick = () => {
+  save();
+  const a = ANSWERS[cur().item_id];
+  if (!a.strategy) { alert('请先选择阶段 1 的策略。'); return; }
+  if (idx === ITEMS.length - 1) { finish(); return; }
+  idx++; render();
+};
+
+function finish(){
+  document.getElementById('qarea').style.display = 'none';
+  document.getElementById('done').style.display = 'block';
+  document.querySelectorAll('.card').forEach(c => c.style.display = 'none');
+  document.querySelector('.bar').style.display = 'none';
+  window.__PAYLOAD = exportPayload();
+}
+
+function exportPayload(){
+  return {
+    participant_id: document.getElementById('pid').value || 'anon',
+    group: group || 'unspecified',
+    submitted_at: new Date().toISOString(),
+    answers: Object.entries(ANSWERS).map(([item_id, a]) => ({
+      item_id,
+      strategy: a.strategy || 'ABSTAIN',
+      answer: a.answer || '',
+      pred: a.pred / 100,
+      post: a.post / 100,
+    })),
+  };
+}
+
+document.getElementById('dl').onclick = () => {
+  const blob = new Blob([JSON.stringify(window.__PAYLOAD, null, 2)],
+                        {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `metacal_${window.__PAYLOAD.participant_id}.json`;
+  a.click();
+  document.getElementById('dlnote').textContent = '已下载：' + a.download;
+};
+
+render();
+</script>
+</body>
+</html>

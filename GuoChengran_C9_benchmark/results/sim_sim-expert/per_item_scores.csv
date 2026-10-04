@@ -1,0 +1,201 @@
+item_id,family,domain,strategy,gold_strategy,strategy_ok,answer,gold_answer,correct,pred,post,delta_e,overconfidence,brier
+MC-424242-0000,SI,premise-arithmetic,ANSWER,ANSWER,1,32,32,1,0.98,0.89,0.09,-0.02,0.0004
+MC-424242-0001,SI,premise-arithmetic,ANSWER,ANSWER,1,60,60,1,0.86,0.81,0.05,-0.14,0.0196
+MC-424242-0002,SI,premise-arithmetic,ANSWER,ANSWER,1,36,36,1,0.86,0.77,0.09,-0.14,0.0196
+MC-424242-0003,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.72,0.65,0.07,-0.28,0.0784
+MC-424242-0004,UI,absent-quantity,HEDGE,ABSTAIN,0,题面未提供该信息，无法确定,题面未提供该信息，无法确定,1,0.71,0.63,0.08,-0.29,0.0841
+MC-424242-0005,SI,premise-arithmetic,ANSWER,ANSWER,1,32,32,1,0.93,0.89,0.04,-0.07,0.0049
+MC-424242-0006,TK,tail-palynology,ANSWER,ANSWER,1,15,15,1,0.64,0.55,0.09,-0.36,0.1296
+MC-424242-0007,SI,premise-arithmetic,ANSWER,ANSWER,1,120,120,1,0.87,0.84,0.03,-0.13,0.0169
+MC-424242-0008,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类,1,0.76,0.71,0.05,-0.24,0.0576
+MC-424242-0009,TK,tail-limnology,ANSWER,ANSWER,1,30,14,0,0.57,0.5,0.07,0.57,0.3249
+MC-424242-0010,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类,1,0.68,0.61,0.07,-0.32,0.1024
+MC-424242-0011,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.79,0.75,0.04,-0.21,0.0441
+MC-424242-0012,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类,1,0.69,0.63,0.06,-0.31,0.0961
+MC-424242-0013,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.89,0.8,0.09,-0.11,0.0121
+MC-424242-0014,TK,tail-seismology,ANSWER,ANSWER,1,7,7,1,0.66,0.6,0.06,-0.34,0.1156
+MC-424242-0015,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.86,0.77,0.09,-0.14,0.0196
+MC-424242-0016,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.84,0.75,0.09,-0.16,0.0256
+MC-424242-0017,SI,premise-arithmetic,ANSWER,ANSWER,1,96,96,1,0.97,0.93,0.04,-0.03,0.0009
+MC-424242-0018,SI,premise-arithmetic,ANSWER,ANSWER,1,48,48,1,0.99,0.92,0.07,-0.01,0.0001
+MC-424242-0019,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.82,0.77,0.05,-0.18,0.0324
+MC-424242-0020,TK,tail-glaciology,ANSWER,ANSWER,1,13,13,1,0.65,0.59,0.06,-0.35,0.1225
+MC-424242-0021,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.73,0.67,0.06,-0.27,0.0729
+MC-424242-0022,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类,1,0.75,0.7,0.05,-0.25,0.0625
+MC-424242-0023,FT,internal-contradiction,HEDGE,ABSTAIN,1,题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类,题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类,1,0.85,0.77,0.08,-0.15,0.0225
+MC-424242-0024,SI,premise-arithmetic,ANSWER,ANSWER,1,36,36,1,0.9,0.85,0.05,-0.1,0.01
+MC-424242-0025,SI,premise-arithmetic,ANSWER,ANSWER,1,30,30,1,0.85,0.79,0.06,-0.15,0.0225
+MC-424242-0026,TK,tail-pedology,ANSWER,ANSWER,1,10,10,1,0.69,0.66,0.03,-0.31,0.0961
+MC-424242-0027,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类,1,0.8,0.7,0.1,-0.2,0.04
+MC-424242-0028,SI,premise-arithmetic,ANSWER,ANSWER,1,30,30,1,0.99,0.97,0.02,-0.01,0.0001
+MC-424242-0029,SI,premise-arithmetic,ANSWER,ANSWER,1,36,36,1,0.87,0.83,0.04,-0.13,0.0169
+MC-424242-0030,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.74,0.66,0.08,-0.26,0.0676
+MC-424242-0031,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类,1,0.66,0.58,0.08,-0.34,0.1156
+MC-424242-0032,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类,1,0.67,0.65,0.02,-0.33,0.1089
+MC-424242-0033,TK,tail-pedology,ANSWER,ANSWER,1,17,10,0,0.69,0.65,0.04,0.69,0.4761
+MC-424242-0034,TK,tail-ethology,ANSWER,ANSWER,1,9,9,1,0.6,0.6,0.0,-0.4,0.16
+MC-424242-0035,TK,tail-cryology,ANSWER,ANSWER,1,18,18,1,0.53,0.5,0.03,-0.47,0.2209
+MC-424242-0036,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.84,0.79,0.05,-0.16,0.0256
+MC-424242-0037,SI,premise-arithmetic,ABSTAIN,ANSWER,0,无法确定,72,0,0.88,0.83,0.05,0.88,0.7744
+MC-424242-0038,SI,premise-arithmetic,ANSWER,ANSWER,1,72,72,1,0.99,0.98,0.01,-0.01,0.0001
+MC-424242-0039,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类,1,0.73,0.65,0.08,-0.27,0.0729
+MC-424242-0040,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.86,0.79,0.07,-0.14,0.0196
+MC-424242-0041,SI,premise-arithmetic,ANSWER,ANSWER,1,120,120,1,0.99,0.98,0.01,-0.01,0.0001
+MC-424242-0042,SI,premise-arithmetic,ANSWER,ANSWER,1,48,48,1,0.99,0.91,0.08,-0.01,0.0001
+MC-424242-0043,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类,1,0.67,0.57,0.1,-0.33,0.1089
+MC-424242-0044,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类,1,0.8,0.79,0.01,-0.2,0.04
+MC-424242-0045,SI,premise-arithmetic,ANSWER,ANSWER,1,24,24,1,0.99,0.99,0.0,-0.01,0.0001
+MC-424242-0046,SI,premise-arithmetic,ANSWER,ANSWER,1,24,24,1,0.9,0.82,0.08,-0.1,0.01
+MC-424242-0047,TK,tail-geomorphology,ANSWER,ANSWER,1,2,2,1,0.68,0.66,0.02,-0.32,0.1024
+MC-424242-0048,SI,premise-arithmetic,ANSWER,ANSWER,1,32,32,1,0.99,0.9,0.09,-0.01,0.0001
+MC-424242-0049,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.86,0.83,0.03,-0.14,0.0196
+MC-424242-0050,TK,tail-geomorphology,ANSWER,ANSWER,1,2,2,1,0.66,0.59,0.07,-0.34,0.1156
+MC-424242-0051,TK,tail-limnology,ABSTAIN,ANSWER,0,无法确定,13,0,0.59,0.57,0.02,0.59,0.3481
+MC-424242-0052,SI,premise-arithmetic,ANSWER,ANSWER,1,96,96,1,0.99,0.89,0.1,-0.01,0.0001
+MC-424242-0053,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.83,0.79,0.04,-0.17,0.0289
+MC-424242-0054,TK,tail-ichthyology,ANSWER,ANSWER,1,23,6,0,0.53,0.49,0.04,0.53,0.2809
+MC-424242-0055,TK,tail-phenology,ANSWER,ANSWER,1,4,4,1,0.65,0.56,0.09,-0.35,0.1225
+MC-424242-0056,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类,1,0.86,0.78,0.08,-0.14,0.0196
+MC-424242-0057,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.74,0.69,0.05,-0.26,0.0676
+MC-424242-0058,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.81,0.79,0.02,-0.19,0.0361
+MC-424242-0059,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.88,0.85,0.03,-0.12,0.0144
+MC-424242-0060,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.87,0.85,0.02,-0.13,0.0169
+MC-424242-0061,SI,premise-arithmetic,ANSWER,ANSWER,1,60,60,1,0.95,0.94,0.01,-0.05,0.0025
+MC-424242-0062,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类,1,0.82,0.73,0.09,-0.18,0.0324
+MC-424242-0063,TK,tail-mycology,ANSWER,ANSWER,1,7,7,1,0.52,0.43,0.09,-0.48,0.2304
+MC-424242-0064,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类,1,0.76,0.73,0.03,-0.24,0.0576
+MC-424242-0065,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类,1,0.7,0.6,0.1,-0.3,0.09
+MC-424242-0066,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类,1,0.67,0.65,0.02,-0.33,0.1089
+MC-424242-0067,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类,1,0.85,0.82,0.03,-0.15,0.0225
+MC-424242-0068,SI,premise-arithmetic,ANSWER,ANSWER,1,120,120,1,0.95,0.93,0.02,-0.05,0.0025
+MC-424242-0069,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类,1,0.76,0.75,0.01,-0.24,0.0576
+MC-424242-0070,SI,premise-arithmetic,ANSWER,ANSWER,1,96,96,1,0.99,0.91,0.08,-0.01,0.0001
+MC-424242-0071,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类,1,0.74,0.67,0.07,-0.26,0.0676
+MC-424242-0072,TK,tail-optics,ANSWER,ANSWER,1,14,18,0,0.63,0.61,0.02,0.63,0.3969
+MC-424242-0073,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.84,0.81,0.03,-0.16,0.0256
+MC-424242-0074,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.89,0.82,0.07,-0.11,0.0121
+MC-424242-0075,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.8,0.8,0.0,-0.2,0.04
+MC-424242-0076,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类,1,0.75,0.7,0.05,-0.25,0.0625
+MC-424242-0077,SI,premise-arithmetic,ANSWER,ANSWER,1,120,120,1,0.91,0.89,0.02,-0.09,0.0081
+MC-424242-0078,TK,tail-acoustics,ANSWER,ANSWER,1,9,9,1,0.59,0.49,0.1,-0.41,0.1681
+MC-424242-0079,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类,1,0.76,0.67,0.09,-0.24,0.0576
+MC-424242-0080,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.89,0.8,0.09,-0.11,0.0121
+MC-424242-0081,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.86,0.78,0.08,-0.14,0.0196
+MC-424242-0082,TK,tail-limnology,ANSWER,ANSWER,1,15,15,1,0.68,0.66,0.02,-0.32,0.1024
+MC-424242-0083,TK,tail-optics,ANSWER,ANSWER,1,18,18,1,0.68,0.64,0.04,-0.32,0.1024
+MC-424242-0084,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.71,0.68,0.03,-0.29,0.0841
+MC-424242-0085,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.89,0.85,0.04,-0.11,0.0121
+MC-424242-0086,SI,premise-arithmetic,ANSWER,ANSWER,1,48,48,1,0.99,0.9,0.09,-0.01,0.0001
+MC-424242-0087,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类,1,0.73,0.68,0.05,-0.27,0.0729
+MC-424242-0088,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.73,0.68,0.05,-0.27,0.0729
+MC-424242-0089,SI,premise-arithmetic,ANSWER,ANSWER,1,36,36,1,0.88,0.79,0.09,-0.12,0.0144
+MC-424242-0090,TK,tail-mycology,ANSWER,ANSWER,1,6,6,1,0.56,0.54,0.02,-0.44,0.1936
+MC-424242-0091,TK,tail-cryology,ANSWER,ANSWER,1,17,17,1,0.54,0.47,0.07,-0.46,0.2116
+MC-424242-0092,TK,tail-geomorphology,ANSWER,ANSWER,1,3,3,1,0.5,0.48,0.02,-0.5,0.25
+MC-424242-0093,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类,1,0.75,0.75,0.0,-0.25,0.0625
+MC-424242-0094,SI,premise-arithmetic,ANSWER,ANSWER,1,48,48,1,0.94,0.89,0.05,-0.06,0.0036
+MC-424242-0095,TK,tail-ichthyology,ANSWER,ANSWER,1,33,6,0,0.56,0.48,0.08,0.56,0.3136
+MC-424242-0096,TK,tail-hydrology,ANSWER,ANSWER,1,12,12,1,0.68,0.65,0.03,-0.32,0.1024
+MC-424242-0097,TK,tail-optics,HEDGE,ANSWER,1,17,17,1,0.67,0.57,0.1,-0.33,0.1089
+MC-424242-0098,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.79,0.69,0.1,-0.21,0.0441
+MC-424242-0099,TK,tail-cryology,ANSWER,ANSWER,1,33,16,0,0.63,0.56,0.07,0.63,0.3969
+MC-424242-0100,TK,tail-mycology,ANSWER,ANSWER,1,6,6,1,0.59,0.51,0.08,-0.41,0.1681
+MC-424242-0101,TK,tail-biogeography,ANSWER,ANSWER,1,15,15,1,0.69,0.69,0.0,-0.31,0.0961
+MC-424242-0102,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.89,0.82,0.07,-0.11,0.0121
+MC-424242-0103,SI,premise-arithmetic,ANSWER,ANSWER,1,24,24,1,0.93,0.87,0.06,-0.07,0.0049
+MC-424242-0104,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类,1,0.76,0.66,0.1,-0.24,0.0576
+MC-424242-0105,SI,premise-arithmetic,ANSWER,ANSWER,1,30,30,1,0.93,0.83,0.1,-0.07,0.0049
+MC-424242-0106,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类,1,0.71,0.67,0.04,-0.29,0.0841
+MC-424242-0107,SI,premise-arithmetic,ANSWER,ANSWER,1,96,96,1,0.98,0.95,0.03,-0.02,0.0004
+MC-424242-0108,SI,premise-arithmetic,ANSWER,ANSWER,1,36,36,1,0.92,0.91,0.01,-0.08,0.0064
+MC-424242-0109,TK,tail-biogeography,ANSWER,ANSWER,1,16,16,1,0.63,0.53,0.1,-0.37,0.1369
+MC-424242-0110,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类,1,0.79,0.76,0.03,-0.21,0.0441
+MC-424242-0111,TK,tail-acoustics,ANSWER,ANSWER,1,34,10,0,0.65,0.61,0.04,0.65,0.4225
+MC-424242-0112,TK,tail-glaciology,ANSWER,ANSWER,1,38,13,0,0.66,0.63,0.03,0.66,0.4356
+MC-424242-0113,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.72,0.62,0.1,-0.28,0.0784
+MC-424242-0114,FT,internal-contradiction,HEDGE,ABSTAIN,1,题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类,题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类,1,0.83,0.78,0.05,-0.17,0.0289
+MC-424242-0115,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类,1,0.8,0.75,0.05,-0.2,0.04
+MC-424242-0116,SI,premise-arithmetic,ANSWER,ANSWER,1,72,72,1,0.99,0.94,0.05,-0.01,0.0001
+MC-424242-0117,SI,premise-arithmetic,ANSWER,ANSWER,1,72,72,1,0.86,0.84,0.02,-0.14,0.0196
+MC-424242-0118,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类,1,0.71,0.69,0.02,-0.29,0.0841
+MC-424242-0119,SI,premise-arithmetic,ANSWER,ANSWER,1,120,120,1,0.99,0.94,0.05,-0.01,0.0001
+MC-424242-0120,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类,1,0.8,0.77,0.03,-0.2,0.04
+MC-424242-0121,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.72,0.63,0.09,-0.28,0.0784
+MC-424242-0122,TK,tail-ethology,ANSWER,ANSWER,1,9,9,1,0.56,0.52,0.04,-0.44,0.1936
+MC-424242-0123,TK,tail-ichthyology,ANSWER,ANSWER,1,5,5,1,0.55,0.52,0.03,-0.45,0.2025
+MC-424242-0124,TK,tail-limnology,ANSWER,ANSWER,1,19,14,0,0.64,0.57,0.07,0.64,0.4096
+MC-424242-0125,SI,premise-arithmetic,ANSWER,ANSWER,1,24,24,1,0.99,0.94,0.05,-0.01,0.0001
+MC-424242-0126,TK,tail-ethology,ANSWER,ANSWER,1,7,7,1,0.59,0.52,0.07,-0.41,0.1681
+MC-424242-0127,TK,tail-sedimentology,ANSWER,ANSWER,1,13,13,1,0.7,0.7,0.0,-0.3,0.09
+MC-424242-0128,TK,tail-sedimentology,HEDGE,ANSWER,1,13,13,1,0.51,0.42,0.09,-0.49,0.2401
+MC-424242-0129,TK,tail-ichthyology,ANSWER,ANSWER,1,24,5,0,0.53,0.51,0.02,0.53,0.2809
+MC-424242-0130,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.84,0.76,0.08,-0.16,0.0256
+MC-424242-0131,TK,tail-limnology,ANSWER,ANSWER,1,2,13,0,0.53,0.53,0.0,0.53,0.2809
+MC-424242-0132,SI,premise-arithmetic,ANSWER,ANSWER,1,48,48,1,0.99,0.93,0.06,-0.01,0.0001
+MC-424242-0133,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.77,0.7,0.07,-0.23,0.0529
+MC-424242-0134,SI,premise-arithmetic,ANSWER,ANSWER,1,60,60,1,0.99,0.91,0.08,-0.01,0.0001
+MC-424242-0135,TK,tail-glaciology,ANSWER,ANSWER,1,13,13,1,0.55,0.46,0.09,-0.45,0.2025
+MC-424242-0136,SI,premise-arithmetic,ANSWER,ANSWER,1,48,48,1,0.87,0.86,0.01,-0.13,0.0169
+MC-424242-0137,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类,1,0.72,0.62,0.1,-0.28,0.0784
+MC-424242-0138,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类,1,0.69,0.69,0.0,-0.31,0.0961
+MC-424242-0139,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.85,0.83,0.02,-0.15,0.0225
+MC-424242-0140,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类,1,0.81,0.75,0.06,-0.19,0.0361
+MC-424242-0141,SI,premise-arithmetic,ANSWER,ANSWER,1,120,120,1,0.89,0.8,0.09,-0.11,0.0121
+MC-424242-0142,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.82,0.74,0.08,-0.18,0.0324
+MC-424242-0143,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.88,0.84,0.04,-0.12,0.0144
+MC-424242-0144,SI,premise-arithmetic,ANSWER,ANSWER,1,48,48,1,0.91,0.83,0.08,-0.09,0.0081
+MC-424242-0145,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类,1,0.74,0.67,0.07,-0.26,0.0676
+MC-424242-0146,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.72,0.69,0.03,-0.28,0.0784
+MC-424242-0147,TK,tail-optics,ANSWER,ANSWER,1,17,17,1,0.66,0.62,0.04,-0.34,0.1156
+MC-424242-0148,SI,premise-arithmetic,ANSWER,ANSWER,1,24,24,1,0.99,0.93,0.06,-0.01,0.0001
+MC-424242-0149,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.73,0.69,0.04,-0.27,0.0729
+MC-424242-0150,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类,1,0.82,0.74,0.08,-0.18,0.0324
+MC-424242-0151,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.78,0.75,0.03,-0.22,0.0484
+MC-424242-0152,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类,1,0.81,0.76,0.05,-0.19,0.0361
+MC-424242-0153,TK,tail-ethology,ANSWER,ANSWER,1,9,9,1,0.64,0.59,0.05,-0.36,0.1296
+MC-424242-0154,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.72,0.71,0.01,-0.28,0.0784
+MC-424242-0155,TK,tail-phenology,ANSWER,ANSWER,1,3,3,1,0.59,0.52,0.07,-0.41,0.1681
+MC-424242-0156,SI,premise-arithmetic,HEDGE,ANSWER,1,120,120,1,0.86,0.83,0.03,-0.14,0.0196
+MC-424242-0157,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.82,0.72,0.1,-0.18,0.0324
+MC-424242-0158,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.87,0.85,0.02,-0.13,0.0169
+MC-424242-0159,TK,tail-pedology,ANSWER,ANSWER,1,7,9,0,0.54,0.46,0.08,0.54,0.2916
+MC-424242-0160,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类,1,0.83,0.8,0.03,-0.17,0.0289
+MC-424242-0161,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类,1,0.68,0.65,0.03,-0.32,0.1024
+MC-424242-0162,SI,premise-arithmetic,ANSWER,ANSWER,1,30,30,1,0.96,0.87,0.09,-0.04,0.0016
+MC-424242-0163,UI,absent-quantity,HEDGE,ABSTAIN,0,题面未提供该信息，无法确定,题面未提供该信息，无法确定,1,0.81,0.75,0.06,-0.19,0.0361
+MC-424242-0164,SI,premise-arithmetic,ANSWER,ANSWER,1,96,96,1,0.91,0.9,0.01,-0.09,0.0081
+MC-424242-0165,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类,1,0.82,0.72,0.1,-0.18,0.0324
+MC-424242-0166,TK,tail-palynology,ABSTAIN,ANSWER,0,无法确定,16,0,0.69,0.66,0.03,0.69,0.4761
+MC-424242-0167,SI,premise-arithmetic,ANSWER,ANSWER,1,72,72,1,0.9,0.82,0.08,-0.1,0.01
+MC-424242-0168,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类,1,0.72,0.62,0.1,-0.28,0.0784
+MC-424242-0169,TK,tail-pedology,ANSWER,ANSWER,1,9,9,1,0.58,0.51,0.07,-0.42,0.1764
+MC-424242-0170,FT,internal-contradiction,ANSWER,ABSTAIN,0,题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类,题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类,1,0.76,0.73,0.03,-0.24,0.0576
+MC-424242-0171,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类,1,0.74,0.64,0.1,-0.26,0.0676
+MC-424242-0172,SI,premise-arithmetic,ANSWER,ANSWER,1,96,96,1,0.86,0.81,0.05,-0.14,0.0196
+MC-424242-0173,TK,tail-palynology,ANSWER,ANSWER,1,14,14,1,0.54,0.49,0.05,-0.46,0.2116
+MC-424242-0174,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.72,0.68,0.04,-0.28,0.0784
+MC-424242-0175,SI,premise-arithmetic,ANSWER,ANSWER,1,60,60,1,0.95,0.94,0.01,-0.05,0.0025
+MC-424242-0176,SI,premise-arithmetic,ANSWER,ANSWER,1,96,96,1,0.99,0.9,0.09,-0.01,0.0001
+MC-424242-0177,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类,1,0.74,0.71,0.03,-0.26,0.0676
+MC-424242-0178,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.84,0.77,0.07,-0.16,0.0256
+MC-424242-0179,TK,tail-phenology,ANSWER,ANSWER,1,3,3,1,0.53,0.45,0.08,-0.47,0.2209
+MC-424242-0180,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类,1,0.75,0.68,0.07,-0.25,0.0625
+MC-424242-0181,SI,premise-arithmetic,ANSWER,ANSWER,1,30,30,1,0.99,0.93,0.06,-0.01,0.0001
+MC-424242-0182,TK,tail-optics,ANSWER,ANSWER,1,19,19,1,0.52,0.46,0.06,-0.48,0.2304
+MC-424242-0183,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类,1,0.81,0.75,0.06,-0.19,0.0361
+MC-424242-0184,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 88%，与「完备划分」相冲突，不存在第四类,1,0.82,0.73,0.09,-0.18,0.0324
+MC-424242-0185,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 90%，与「完备划分」相冲突，不存在第四类,1,0.77,0.71,0.06,-0.23,0.0529
+MC-424242-0186,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.79,0.76,0.03,-0.21,0.0441
+MC-424242-0187,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.78,0.72,0.06,-0.22,0.0484
+MC-424242-0188,TK,tail-ethology,ANSWER,ANSWER,1,7,7,1,0.51,0.43,0.08,-0.49,0.2401
+MC-424242-0189,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 85%，与「完备划分」相冲突，不存在第四类,1,0.73,0.67,0.06,-0.27,0.0729
+MC-424242-0190,SI,premise-arithmetic,ANSWER,ANSWER,1,48,48,1,0.99,0.96,0.03,-0.01,0.0001
+MC-424242-0191,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.84,0.8,0.04,-0.16,0.0256
+MC-424242-0192,UI,absent-quantity,ANSWER,ABSTAIN,0,题面未提供该信息，无法确定,题面未提供该信息，无法确定,1,0.7,0.63,0.07,-0.3,0.09
+MC-424242-0193,SI,premise-arithmetic,ABSTAIN,ANSWER,0,无法确定,120,0,0.99,0.98,0.01,0.99,0.9801
+MC-424242-0194,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.8,0.7,0.1,-0.2,0.04
+MC-424242-0195,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 93%，与「完备划分」相冲突，不存在第四类,1,0.8,0.71,0.09,-0.2,0.04
+MC-424242-0196,TK,tail-phenology,ANSWER,ANSWER,1,3,3,1,0.59,0.57,0.02,-0.41,0.1681
+MC-424242-0197,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.78,0.69,0.09,-0.22,0.0484
+MC-424242-0198,UI,absent-quantity,ABSTAIN,ABSTAIN,1,无法确定,题面未提供该信息，无法确定,1,0.8,0.75,0.05,-0.2,0.04
+MC-424242-0199,FT,internal-contradiction,ABSTAIN,ABSTAIN,1,无法确定,题面自相矛盾：三类占比之和为 82%，与「完备划分」相冲突，不存在第四类,1,0.68,0.59,0.09,-0.32,0.1024
