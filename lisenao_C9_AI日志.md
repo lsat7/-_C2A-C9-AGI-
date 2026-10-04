@@ -1,7 +1,7 @@
 # AI 日志（C9）/ AI Usage Log — Phase 2
 
 **项目 / Project:** MetaCal — 预测性元认知校准基准（PMCB）
-**作者 / Author:** lisenao（李思脑）
+**作者 / Author:** lisenao
 **阶段 / Phase:** C9 正式提交（Benchmark 开发全过程）
 **日期 / Date:** 2026-04-10 ~ 2026-04-13
 **红线自检：** 三条红线为 `missing_artifacts`（核心交付物缺失）、`no_ai_log`（无 AI 记录）、`one_shot_ai`（一句话指令直接提交、无迭代）。本日志逐条留痕：§2 给出逐日调用账本，§3 给出 prompt 进化链，§4 给出 AI 被证伪的完整清单，§5 反向举证未使用 AI 的环节。

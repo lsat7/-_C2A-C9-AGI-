@@ -1,7 +1,7 @@
 # MetaCal — Predictive Metacognition Calibration Benchmark (PMCB)
 
 > **Track 2 · Metacognition** ｜ Kaggle *Measuring Progress Toward AGI: Cognitive Abilities*
-> Author: **lisenao（李思脑）** ｜ Version: **1.0.0** ｜ License: **MIT**
+> Author: **lisenao** ｜ Version: **1.0.0** ｜ License: **MIT**
 
 MetaCal measures one thing: **does a model know, *before* it answers, whether it will get the item right?**
 

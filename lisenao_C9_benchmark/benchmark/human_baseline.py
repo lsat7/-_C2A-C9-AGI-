@@ -13,7 +13,7 @@ blob at the end which `human_baseline.score_submissions()` consumes, so
 human and model data flow through the *same* grading code — this is what
 makes the human comparison legitimate rather than anecdotal.
 
-Author : lisenao (李思脑)
+Author : lisenao
 License: MIT
 """
 

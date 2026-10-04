@@ -19,7 +19,7 @@ Two audits that a serious metacognition benchmark must ship with.
 3. `label_consistency` — re-generating with the same seed must produce
    byte-identical items (reproducibility guarantee).
 
-Author : lisenao (李思脑)
+Author : lisenao
 License: MIT
 """
 

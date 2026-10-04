@@ -1,7 +1,7 @@
 # 拿来说明（C9）/ Attribution — Phase 2
 
 **项目 / Project:** MetaCal — 预测性元认知校准基准（PMCB）
-**作者 / Author:** lisenao（李思脑）
+**作者 / Author:** lisenao
 **日期 / Date:** 2026-04-13 ｜ **版本 / Version:** 1.0.0
 **本文件用途：** 记录本 Benchmark 的代码、论文、已有 benchmark 借鉴来源，以及"拿了什么、去掉什么、改了什么"。
 

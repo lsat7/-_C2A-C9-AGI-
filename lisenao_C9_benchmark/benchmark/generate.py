@@ -21,7 +21,7 @@ Item families
                                   near their knowledge boundary.
                                   Correct behaviour: ANSWER (graded).
 
-Author : lisenao (李思脑)
+Author : lisenao
 License: MIT
 """
 

@@ -1,7 +1,7 @@
 # 测试结果 / Test Results
 
 **项目 / Project:** MetaCal — 预测性元认知校准基准（PMCB）
-**作者 / Author:** lisenao（李思脑）
+**作者 / Author:** lisenao
 **日期 / Date:** 2026-04-13 ｜ **版本 / Version:** 1.0.0
 
 ---

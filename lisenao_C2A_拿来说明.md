@@ -1,6 +1,6 @@
 # 拿来说明 / Attribution
 
-**作者 / Author:** lisenao（李思脑）
+**作者 / Author:** lisenao
 **挑战 / Challenge:** C2A — Track 2 Metacognition（元认知）
 **日期 / Date:** 2026-04-09
 **提案 / Proposal:** MetaCal — 预测性元认知校准基准 (Predictive Metacognition Calibration Benchmark, PMCB)
