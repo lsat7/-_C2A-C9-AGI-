@@ -61,7 +61,7 @@ MetaCal 把置信度采集**严格前置到作答之前**，并量化前后预�
 ├── 【Phase 2 · C9 正式提交】
 ├── lisenao_C9_task说明.md            评估任务描述 + 评分标准
 ├── lisenao_C9_测试结果.md            四档基线 × 200 题完整数据
-├── lisenao_C9_反思报告.md            500–800 字反思报告
+├── lisenao_C9_AAR反思报告.md            500–800 字反思报告
 ├── lisenao_C9_AI日志.md             开发全过程 AI 记录
 ├── lisenao_C9_拿来说明.md            代码 / 论文 / benchmark 借鉴来源
 │
@@ -214,7 +214,7 @@ python metacal.py test --model openai:gpt-4o-mini --n 200 --out results/gpt-4o-m
 | Phase 2 | Benchmark 代码 | `lisenao_C9_benchmark/` | ✅ 完整可运行，仅标准库 |
 | Phase 2 | 任务说明文档 | `lisenao_C9_task说明.md` | ✅ |
 | Phase 2 | 测试结果 | `lisenao_C9_测试结果.md` | ✅ 四档基线 × 200 题 |
-| Phase 2 | 反思报告 | `lisenao_C9_反思报告.md` | ✅ 正文 799 字，回答全部 5 问 |
+| Phase 2 | 反思报告 | `lisenao_C9_AAR反思报告.md` | ✅ 正文 799 字，回答全部 5 问 |
 | Phase 2 | ⚡ AI 日志 | `lisenao_C9_AI日志.md` | ✅ 99 轮账本 + prompt 进化链 |
 | Phase 2 | 拿来说明 | `lisenao_C9_拿来说明.md` | ✅ |
 
